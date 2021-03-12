@@ -1,0 +1,30 @@
+.sidebar {
+    margin-top: 100px;
+    max-width: 320px;
+    width: 100%;
+    height: 100%;
+    border-right: var(--border);
+    background: var(--white);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: var(--zindex-sidebar);
+}
+
+.item {
+    height: 50px;
+    padding: 15px 30px;
+    cursor: pointer;
+    background: var(--white);
+    transition: background 0.3s ease;
+    
+    &:hover {
+        background: var(--color-grey);
+    }
+    
+    
+}
+
+
+
+
