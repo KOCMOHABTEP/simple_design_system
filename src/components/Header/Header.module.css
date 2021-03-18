@@ -2,7 +2,7 @@
     height: 100px;
     width: 100%;
     border-bottom: var(--border);
-    background: var(--white);
+    background: var(--color-background-light);
     box-shadow: var(--box-shadow);
     z-index: var(--zindex-header);
     display: flex;
@@ -12,17 +12,32 @@
     left: 0;
 } 
 
-.logo {
-    height: 50px;
-    width: 320px;
-    padding: 0 30px;
-    background: var(--color-black);
-}
 
 .menu {
     width: calc(100% - 320px);
+    margin-left: 320px;
     height: 50px;
     padding: 0 30px;
     display: flex;
-    background: var(--color-grey);
+    justify-content: flex-end;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profileImage {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: solid 2px var(--color-green-dark);
+    background: var(--color-background-lighter);
+    box-shadow: var(--box-shadow);
+    transition: border 0.3s ease;
+    
+    &:hover {
+        border: solid 2px var(--color-green);
+    }
 }

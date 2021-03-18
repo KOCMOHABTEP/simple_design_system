@@ -5,24 +5,33 @@ console.log(styles);
 
 
 export const Sidebar = () => {
+    
+    const menuItems = [
+        "Команда",
+        "Сообщения",
+        "Матчи",
+        "Турниры",
+        "Стримы",
+        "Форум",
+        "Мувики",
+        "Картинки"
+    ];
+    
     return (
         <div className={styles.sidebar}>
-            <Link href="/">
-                <div className={styles.item}>
-                    Главная
-                </div>
-            </Link>
-            <Link href="/deals">
-                <div className={styles.item}>
-                    Сделки
-                </div>
-            </Link>
-            <div className={styles.item}>Удобные выплаты</div>
-            <div className={styles.item}>Для клиентов</div>
-            <div className={styles.item}>Моя мотивация</div>
-            <div className={styles.item}>Обучение</div>
-            <div className={styles.item}>Новости</div>
-            <div className={styles.item}>Поддержка</div>
+            <div className={styles.logo}>
+                <div className={styles.logoInner} />
+            </div>
+            {
+                menuItems.map((item, index) =>
+                    <Link href="/" key={index}>
+                        <div className={styles.item}>
+                            {item}
+                        </div>
+                    </Link>
+                )
+            }
         </div>
+
     )
 }

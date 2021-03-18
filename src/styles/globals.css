@@ -1,9 +1,12 @@
 @import "vars.css";
+@import "fonts.css";
 
 html,
 body {
     font-family: var(--font-body);
     font-size: var(--fs-base);
+    color: var(--white);
+    background: var(--color-background);
 }
 
 a {

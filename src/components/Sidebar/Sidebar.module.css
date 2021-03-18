@@ -1,10 +1,10 @@
 .sidebar {
-    margin-top: 100px;
     max-width: 320px;
     width: 100%;
     height: 100%;
     border-right: var(--border);
-    background: var(--white);
+    background: var(--color-background-light);
+    box-shadow: var(--box-shadow);
     position: fixed;
     left: 0;
     top: 0;
@@ -13,16 +13,27 @@
 
 .item {
     height: 50px;
-    padding: 15px 30px;
+    padding: 15px 30px 15px 60px;
     cursor: pointer;
-    background: var(--white);
     transition: background 0.3s ease;
     
     &:hover {
-        background: var(--color-grey);
+        background: var(--color-background-lighter);
     }
-    
-    
+}
+
+.logo {
+    height: 50px;
+    width: 320px;
+    padding: 0 30px;
+    margin: 25px 0;
+    position: relative;
+}
+
+.logoInner {
+    width: 100%;
+    height: 50px;
+    background: var(--white);
 }
 
 
