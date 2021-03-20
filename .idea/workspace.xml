@@ -1,32 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f91b48b3-8c7a-4152-9d78-a655b28f600c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/cssdialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/AvenirNextCyr-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/AvenirNextCyr-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/AvenirNextCyr-Demi.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/AvenirNextCyr-DemiItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/AvenirNextCyr-Heavy.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/AvenirNextCyr-HeavyItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/AvenirNextCyr-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/AvenirNextCyr-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/AvenirNextCyr-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/AvenirNextCyr-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/AvenirNextCyr-MediumItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/AvenirNextCyr-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/AvenirNextCyr-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/AvenirNextCyr-ThinItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/AvenirNextCyr-UltraLight.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/AvenirNextCyr-UltraLightIt.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Layout/Layout.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Layout/Layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts.css" afterDir="false" />
+    <list default="true" id="f91b48b3-8c7a-4152-9d78-a655b28f600c" name="Default Changelist" comment="Configure project variables and styles">
+      <change afterPath="$PROJECT_DIR$/public/icons/icon-arrow_b-12x12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/icon_members-24x24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/icon_messages-24x24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/icon_notification-24x24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/slider-image_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Container/Container.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Container/Container.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Slider/Slider.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Slider/Slider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/Button/Button.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/Button/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
@@ -56,17 +47,19 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/fonts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/img" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.css.dialects" />
     <property name="ts.external.directory.path" value="G:\MyFiles\DEV_Web\aodzone_new\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\MyFiles\DEV_Web\aodzone_new\public\img" />
       <recent name="G:\MyFiles\DEV_Web\aodzone_new\public\fonts" />
     </key>
   </component>
@@ -109,34 +102,59 @@
       <option name="presentableId" value="Default" />
       <updated>1615582444714</updated>
       <workItem from="1615582446989" duration="257000" />
-      <workItem from="1616080938986" duration="10028000" />
+      <workItem from="1616080938986" duration="31807000" />
     </task>
+    <task id="LOCAL-00001" summary="Configure project variables and styles">
+      <created>1616095605845</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616095605845</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Configure project variables and styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configure project variables and styles" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1616087185884">
+    <state x="731" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616148771832">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616087185884" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1616087185884">
+    <state x="731" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616148771832" />
+    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1616247443145">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616087185884" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1616087185884">
+    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616247443145" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1616242878956">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616087185884" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1616087185884">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616242878956" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1616242878956">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616087185884" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616242878956" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1616242878956">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616242878956" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1616242878956">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616242878956" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1616088708700">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616088708700" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1616095608088">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616095608088" />
     <state x="736" y="421" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1616084605255">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

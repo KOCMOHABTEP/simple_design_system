@@ -55,8 +55,7 @@
     --ls-normal: 0.02rem;
     --header-weight: bold;
     --header-lh: 1.5;
-    --header-ls: 0.25rem;
-    --header-align: center;
+    --header-ls: 1px;
     --h1-size: 6rem;
     --h2-size: 4rem;
     --h3-size: 2rem;

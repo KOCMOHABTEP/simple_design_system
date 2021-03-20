@@ -1,0 +1,13 @@
+.button {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: var(--color-background);
+    padding: 16px 32px;
+    cursor: pointer;
+    border-radius: var(--radius-md);
+    border: none;
+    background: var(--color-green);
+    box-shadow: var(--box-shadow);
+    transition: .3s;
+}

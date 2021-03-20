@@ -1,0 +1,16 @@
+.container {
+    max-width: calc(100% - 320px);
+    width: 100%;
+    padding-top: 100px;
+    margin-left: 320px;
+}
+
+.containerInner {
+    padding-top: 40px;
+}
+
+.containerContent {
+    width: 100%;
+    padding: 0 30px;
+    margin: 0 auto;
+}

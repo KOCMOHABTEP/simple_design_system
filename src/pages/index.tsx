@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Layout from "../components/Layout/Layout";
 
+import Slider from "../components/Slider/Slider";
+
 export default function Home() {
     return (
         <div className="container">
@@ -9,7 +11,9 @@ export default function Home() {
                 <title>Create Next App</title>
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
-            <Layout />
+            <Layout>
+                <Slider />
+            </Layout>
         </div>
     )
 };
