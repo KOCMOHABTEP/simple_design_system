@@ -1,7 +1,6 @@
 :root {
     /* CUSTOM */
-
-    --color-white: #FFFFFF;
+    --color-primary: #2277bc;
     
     /* COLORS */
     --color-background: #19191e;
@@ -19,7 +18,6 @@
     
     
     
-    --color-primary: #6fb2e0;
     --color-header: #333333;
     --color-link: #8888ee;
     --color-button-hover: salmon;

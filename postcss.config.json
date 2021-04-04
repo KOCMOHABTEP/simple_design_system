@@ -1,7 +1,6 @@
 {
   "plugins": [
     "postcss-flexbugs-fixes",
-    "postcss-nesting",
     [
       "postcss-preset-env",
       {
@@ -10,7 +9,11 @@
         },
         "stage": 3,
         "features": {
-          "custom-properties": false
+          "nesting-rules": true,
+          "custom-properties": {
+            "importFrom": "./src/styles/vars.css",
+            "preserve": false
+          }
         }
       }
     ]

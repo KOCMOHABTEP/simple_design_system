@@ -1,6 +1,7 @@
-import cx from "classnames";
+import ActiveLink from "@components/ui/ActiveLink/ActiveLink";
+import Icon from "@components/ui/Icon/Icon";
+
 import styles from "./Sidebar.module.css";
-import Link from "next/link";
 
 export const Sidebar = () => {
     
@@ -9,42 +10,48 @@ export const Sidebar = () => {
             <div className={styles.logo}>
                 <div className={styles.logoInner} />
             </div>
-            <Link href="/" >
-                <div className={cx(styles.item, styles.active)}>
-                    <i className={styles.itemIcon} />
+            <ActiveLink href="/" activeClassName={styles.active}>
+                <div className={styles.item}>
+                    <Icon icon="home" width={24} height={24}/>
+                    <span className={styles.itemText}>Главная</span>
+                </div>
+            </ActiveLink>
+            <ActiveLink href="/news" activeClassName={styles.active}>
+                <div className={styles.item}>
+                    <Icon icon="news"/>
+                    <span className={styles.itemText}>Новости</span>
+                </div>
+            </ActiveLink>
+            <ActiveLink href="/team" activeClassName={styles.active}>
+                <div className={styles.item}>
+                    <Icon icon="team"/>
                     <span className={styles.itemText}>Команда</span>
                 </div>
-            </Link>
-            <Link href="/">
+            </ActiveLink>
+            <ActiveLink href="/matches" activeClassName={styles.active}>
                 <div className={styles.item}>
-                    <i className={styles.itemIcon} />
+                    <Icon icon="matches"/>
                     <span className={styles.itemText}>Матчи</span>
                 </div>
-            </Link>
-            <Link href="/">
+            </ActiveLink>
+            <ActiveLink href="/streams" activeClassName={styles.active}>
                 <div className={styles.item}>
-                    <i className={styles.itemIcon} />
-                    <span className={styles.itemText}>Турниры</span>
-                </div>
-            </Link>
-            <Link href="/">
-                <div className={styles.item}>
-                    <i className={styles.itemIcon} />
+                    <Icon icon="streams"/>
                     <span className={styles.itemText}>Стримы</span>
                 </div>
-            </Link>
-            <Link href="/">
+            </ActiveLink>
+            <ActiveLink href="/groups" activeClassName={styles.active}>
                 <div className={styles.item}>
-                    <i className={styles.itemIcon} />
+                    <Icon icon="groups"/>
                     <span className={styles.itemText}>Группы</span>
                 </div>
-            </Link>
-            <Link href="/">
+            </ActiveLink>
+            <ActiveLink href="/media" activeClassName={styles.active}>
                 <div className={styles.item}>
-                    <i className={styles.itemIcon} />
+                    <Icon icon="media"/>
                     <span className={styles.itemText}>Медиа</span>
                 </div>
-            </Link>
+            </ActiveLink>
         </div>
 
     )

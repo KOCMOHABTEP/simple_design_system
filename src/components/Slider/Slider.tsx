@@ -1,27 +1,64 @@
-import Button from "../ui/Button/Button";
 import styles from "./Slider.module.css";
-import Image from "next/image";
+import SliderItem from "@components/Slider/SliderItem/SliderItem";
+import {useState} from "react";
 
-console.log(styles)
-
-export default function Slider() {
+const Slider = () => {
+    const slidesList = [
+        {
+            title: "Что такое Call of Duty: Online",
+            game: "Call of Duty: Black Ops",
+            icon: "game-blackops",
+            description: "Небольшая статья о малоизвестной части Call Of Duty с большим потенциалом",
+            image: '/img/slider-image_1.jpg',
+            href: "#"
+        },
+        {
+            title: "Лучшие эмблемы ноября в Black Ops III",
+            game: "Call of Duty: Black Ops",
+            icon: "game-blackops",
+            description: "В первом же месяце, после выхода Black Ops III, было создано очень много интересных эмблем на разную тематику. Даже трудно поверить в то, что они были созданы без Фотошопа. Предлагаем взглянуть на ТОП-10 эмблемок месяца.",
+            image: '/img/slider-image_2.jpg',
+            href: "#"
+        },
+        {
+            title: "8 интересных колод использующих карты Лиги Исследователей",
+            game: "Hearthstone",
+            icon: "game-hs",
+            description: "Представляем вашему вниманию 8 колод, которые были созданы или обновлены после выхода Лиги Исследователей",
+            image: '/img/slider-image_3.jpg',
+            href: "#"
+        }
+    ];
+    const [currentSlide, setCurrentSlide] = useState(0);
+    
+    
+    const prevSlide = () => {
+        if (currentSlide)
+            setCurrentSlide(currentSlide - 1);
+        else
+            setCurrentSlide(slidesList.length - 1);
+    }
+    
+    const nextSlide = () => {
+        if (currentSlide < slidesList.length - 1)
+            setCurrentSlide(currentSlide + 1);
+        else
+            setCurrentSlide(0);
+    }
+    
     return (
         <div className={styles.slider}>
             <div className={styles.sliderControls}>
-                <div className={styles.sliderControlsItem} />
-                <div className={styles.sliderControlsItem} />
+                <div className={styles.sliderControlsItem} onClick={prevSlide} />
+                <div className={styles.sliderControlsItem} onClick={nextSlide} />
             </div>
             <div className={styles.sliderInner}>
-                <div className={styles.sliderContentFrame} style={{ backgroundImage:  "url('/img/slider-image_1.jpg')"}}>
-                    {/*<Image src="/img/slider-image_1.jpg" width="100" height="100" />*/}
-                </div>
-                <div className={styles.sliderContent}>
-                    <div className={styles.sliderContentGame}>Call of Duty: Black Ops</div>
-                    <h1 className={styles.sliderContentTitle}>ЧТО ТАКОЕ CALL OF DUTY: ONLINE?</h1>
-                    <p className={styles.sliderContentDescription}>Небольшая статья о малоизвестной части Call Of Duty с большим потенциалом</p>
-                    <Button text="ЧИТАТЬ" />
-                </div>
+                {
+                    slidesList.map((slideProps, index) => <SliderItem {...slideProps} key={index} current={index === currentSlide} />)
+                }
             </div>
         </div>
     )
 }
+
+export default Slider;

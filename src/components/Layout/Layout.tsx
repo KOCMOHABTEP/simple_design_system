@@ -1,6 +1,6 @@
-import {Header} from "../Header/Header";
-import {Sidebar} from "../Sidebar/Sidebar";
-import {Container} from "../Container/Container";
+import {Header} from "@components/Header/Header";
+import {Sidebar} from "@components/Sidebar/Sidebar";
+import {Container} from "@components/Container/Container";
 
 const Layout = props => {
     return (

@@ -1,7 +1,6 @@
 import Head from 'next/head'
-import Layout from "../components/Layout/Layout";
-
-import Slider from "../components/Slider/Slider";
+import Layout from "@components/Layout/Layout";
+import Slider from "@components/Slider/Slider";
 
 export default function Home() {
     return (

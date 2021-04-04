@@ -35,19 +35,16 @@
             top: 0;
             right: 0;
         }
+        
+        & svg {
+            fill: var(--color-green);
+        }
     }
     
     &:hover {
         opacity: 1;
         background: var(--color-background-lighter);
     }
-}
-
-.itemIcon {
-    width: 24px;
-    height: 24px;
-    margin-right: 16px;
-    background: var(--white);
 }
 
 .itemText {
