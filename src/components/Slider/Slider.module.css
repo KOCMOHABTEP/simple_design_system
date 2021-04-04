@@ -1,6 +1,6 @@
 .slider {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     position: relative;
 }
 
@@ -25,14 +25,27 @@
     width: 40px;
     height: 40px;
     cursor: pointer;
-    background: #ffffff;
+    background: var(--white);
     border-radius: 50%;
-    
-    &:first-child {
-        margin-right: 8px;
-    }
-    
-    &:last-child {
-        margin-left: 8px;
-    }
+    position: relative;
+}
+
+.sliderControlsItem + .sliderControlsItem {
+    margin-left: var(--spacing-1);
+}
+
+.sliderControlsItemIcon {
+    fill: var(--black);
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.sliderControlsItemIconLeft {
+    transform: translate(-50%, -50%) rotate(180deg);
+}
+
+.sliderControlsItemIconRight {
+    transform: translate(-50%, -50%) rotate(0);
 }

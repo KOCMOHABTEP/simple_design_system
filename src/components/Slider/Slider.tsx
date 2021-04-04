@@ -1,6 +1,9 @@
 import styles from "./Slider.module.css";
+import cn from "classnames";
 import SliderItem from "@components/Slider/SliderItem/SliderItem";
+import Icon from "@components/ui/Icon/Icon";
 import {useState} from "react";
+
 
 const Slider = () => {
     const slidesList = [
@@ -49,8 +52,12 @@ const Slider = () => {
     return (
         <div className={styles.slider}>
             <div className={styles.sliderControls}>
-                <div className={styles.sliderControlsItem} onClick={prevSlide} />
-                <div className={styles.sliderControlsItem} onClick={nextSlide} />
+                <div className={styles.sliderControlsItem} onClick={prevSlide} >
+                    <Icon className={cn(styles.sliderControlsItemIcon, styles.sliderControlsItemIconLeft)} icon="arrow" width={16} height={16} /> 
+                </div>
+                <div className={styles.sliderControlsItem} onClick={nextSlide} >
+                    <Icon className={cn(styles.sliderControlsItemIcon, styles.sliderControlsItemIconRight)} icon="arrow" width={16} height={16} />
+                </div>
             </div>
             <div className={styles.sliderInner}>
                 {

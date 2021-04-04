@@ -16,12 +16,11 @@
     /* GRADIENTS */
     --gradient: linear-gradient(270deg, #00FBA4 0%, #40809C 100%);
     
-    
-    
     --color-header: #333333;
     --color-link: #8888ee;
     --color-button-hover: salmon;
     --white: white;
+    --black: #222222;
 
     /* FONTS */
     --font-body: 'AvenirNextCyr', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -29,24 +28,34 @@
     --font-header: Georgia, serif;
 
     /* SPACING */
-    --spacing-base: 0.8rem;
-    --spacing-1: calc(var(--spacing-base) * 1);
-    --spacing-2: calc(var(--spacing-base) * 2);
-    --spacing-3: calc(var(--spacing-base) * 3);
-    --spacing-4: calc(var(--spacing-base) * 4);
-    --spacing-5: calc(var(--spacing-base) * 5);
-    --spacing-6: calc(var(--spacing-base) * 6);
-    --spacing-7: calc(var(--spacing-base) * 7);
-    --spacing-8: calc(var(--spacing-base) * 8);
-    --spacing-9: calc(var(--spacing-base) * 9);
-    --spacing-10: calc(var(--spacing-base) * 10);
-    --spacing-11: calc(var(--spacing-base) * 11);
-    --spacing-12: calc(var(--spacing-base) * 12);
+    --spacing-base: 8px;
+    --spacing-neg-2: -16px;
+    --spacing-neg-1: -8px;
+    --spacing-1: 8px;
+    --spacing-2: 16px;
+    --spacing-3: 24px;
+    --spacing-4: 32px;
+    --spacing-5: 40px;
+    --spacing-6: 48px;
+    --spacing-7: 56px;
+    --spacing-8: 64px;
+    --spacing-9: 72px;
+    --spacing-10: 80px;
+    --spacing-11: 88px;
+    --spacing-12: 96px;
 
     /* TYPOGRAPHY */
     --fs-base: 16px;
     --fs-med: 14px;
     --fs-sm: 12px;
+
+    //--font-size-sm: 0.875rem;
+    //--font-size-md: 1rem;
+    //--font-size-lg: 1.125rem;
+    //--font-size-xl: 1.25rem;
+    //--font-size-2xl: 1.5rem;
+    //--font-size-3xl: 2rem;
+    //--font-size-4xl: 3rem;
     
     --fs-normal: 1.6rem;
     --lh-normal: 1.2;
