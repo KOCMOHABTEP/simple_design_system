@@ -1,9 +1,9 @@
-import styles from "./News.module.css";
+import styles from "./NewsList.module.css";
 import NewsItem from "@components/News/NewsItem/NewsItem";
 
-const News = () => {
+export const NewsList = () => {
 
-    var newsList = [
+    const newsList = [
         {
             id: 1,
             image: "/img/content/article_1.jpg",
@@ -65,5 +65,3 @@ const News = () => {
         </div>
     )
 }
-
-export default News;

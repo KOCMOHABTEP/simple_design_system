@@ -12,7 +12,7 @@ export const Sidebar = () => {
             </div>
             <ActiveLink href="/" activeClassName={styles.active}>
                 <div className={styles.item}>
-                    <Icon icon="home" width={24} height={24}/>
+                    <Icon icon="home"/>
                     <span className={styles.itemText}>Главная</span>
                 </div>
             </ActiveLink>

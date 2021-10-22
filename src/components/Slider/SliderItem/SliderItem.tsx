@@ -16,7 +16,7 @@ interface ISliderItem {
 export default function SliderItem({title, game, icon, description, href, image, current}:ISliderItem) {
     
     const renderIcon = () => {
-        if (icon) return <Icon icon={icon} game={true}/>
+        if (icon) return <Icon icon={icon}/>
     }
     
     return (

@@ -1,5 +1,7 @@
 .button {
+    font-family: inherit;
     font-size: 14px;
+    font-weight: bold;
     color: var(--color-background);
     outline: none;
     min-width: 100px;

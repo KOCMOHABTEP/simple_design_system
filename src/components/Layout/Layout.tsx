@@ -1,14 +1,26 @@
 import {Header} from "@components/Header/Header";
 import {Sidebar} from "@components/Sidebar/Sidebar";
 import {Container} from "@components/Container/Container";
+import Head from "next/head";
 
-const Layout = props => {
+interface ILayout {
+    title?: string,
+    children: any
+}
+
+const Layout = ({title = "AOD Zone", children}: ILayout) => {
     return (
-        <div>
-            <Header/>
-            <Sidebar/>
-            <Container>{props.children}</Container>
-        </div>
+        <>
+            <Head>
+                <title>{title}</title>
+                <link rel="icon" href="/favicon.ico"/>
+            </Head>
+            <div>
+                <Header/>
+                <Sidebar/>
+                <Container>{children}</Container>
+            </div>
+        </>
     )
 }
 
