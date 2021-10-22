@@ -67,7 +67,7 @@ export const NewsDetail = () => {
             </div>
             <div className={styles.newsDetailFooter}>
                 <div className={styles.newsDetailFooterControls}>
-                    <Icon icon="" />
+                    <Icon name="comments" />
                 </div>
             </div>
             

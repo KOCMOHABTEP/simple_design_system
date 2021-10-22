@@ -12,43 +12,43 @@ export const Sidebar = () => {
             </div>
             <ActiveLink href="/" activeClassName={styles.active}>
                 <div className={styles.item}>
-                    <Icon icon="home"/>
+                    <Icon name="home"/>
                     <span className={styles.itemText}>Главная</span>
                 </div>
             </ActiveLink>
             <ActiveLink href="/news" activeClassName={styles.active}>
                 <div className={styles.item}>
-                    <Icon icon="news"/>
+                    <Icon name="news"/>
                     <span className={styles.itemText}>Новости</span>
                 </div>
             </ActiveLink>
             <ActiveLink href="/team" activeClassName={styles.active}>
                 <div className={styles.item}>
-                    <Icon icon="team"/>
+                    <Icon name="team"/>
                     <span className={styles.itemText}>Команда</span>
                 </div>
             </ActiveLink>
             <ActiveLink href="/matches" activeClassName={styles.active}>
                 <div className={styles.item}>
-                    <Icon icon="matches"/>
+                    <Icon name="matches"/>
                     <span className={styles.itemText}>Матчи</span>
                 </div>
             </ActiveLink>
             <ActiveLink href="/streams" activeClassName={styles.active}>
                 <div className={styles.item}>
-                    <Icon icon="streams"/>
+                    <Icon name="streams"/>
                     <span className={styles.itemText}>Стримы</span>
                 </div>
             </ActiveLink>
             <ActiveLink href="/groups" activeClassName={styles.active}>
                 <div className={styles.item}>
-                    <Icon icon="groups"/>
+                    <Icon name="groups"/>
                     <span className={styles.itemText}>Группы</span>
                 </div>
             </ActiveLink>
             <ActiveLink href="/media" activeClassName={styles.active}>
                 <div className={styles.item}>
-                    <Icon icon="media"/>
+                    <Icon name="media"/>
                     <span className={styles.itemText}>Медиа</span>
                 </div>
             </ActiveLink>

@@ -24,11 +24,11 @@ const NewsItem = ({image, title, description, date, link, stats}:INewsItem) => {
                     <div className={styles.newsItemDescription}>{description}</div>
                     <div className={styles.newsItemStats}>
                         <div className={styles.newsItemStatsControl}>
-                            <Icon className={styles.newsItemStatsControlIcon} icon="views" size={16} viewBox="0 0 16 16" />
+                            <Icon className={styles.newsItemStatsControlIcon} name="views" size={16} />
                             <span>{stats.views}</span>
                         </div>
                         <div className={styles.newsItemStatsControl}>
-                            <Icon className={styles.newsItemStatsControlIcon} icon="comments" size={16} viewBox="0 0 16 16" />
+                            <Icon className={styles.newsItemStatsControlIcon} name="comments" size={16} />
                             <span>{stats.comments}</span>
                         </div>
                     </div>

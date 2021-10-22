@@ -2,28 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d8d035f-f0b7-4d19-9519-73a9b5d6531c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/News/NewsDetail/NewsDetail.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/News/NewsDetail/NewsDetail.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/news/[id].tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/news/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/cssdialects.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/Icon/Icon.library.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/Icon/icons/arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/Icon/icons/comments.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/Icon/icons/friends.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/Icon/icons/game-blackops.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/Icon/icons/groups.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/Icon/icons/home.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/Icon/icons/matches.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/Icon/icons/media.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/Icon/icons/message.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/Icon/icons/news.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/Icon/icons/notification.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/Icon/icons/streams.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/Icon/icons/team.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/Icon/icons/views.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Container/Container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Container/Container.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/News/News.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/News/NewsList.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/News/News.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/News/NewsList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/News/NewsItem/NewsItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/News/NewsItem/NewsItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/News/NewsDetail/NewsDetail.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/News/NewsDetail/NewsDetail.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/News/NewsItem/NewsItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/News/NewsItem/NewsItem.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Slider/Slider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slider/Slider.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Slider/SliderItem/SliderItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slider/SliderItem/SliderItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/Button/Button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Button/Button.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ui/Icon/Icon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Icon/Icon.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/deals.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/vars.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/vars.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +38,11 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Dmitriy Smirnov &lt;dsmirnov.online@yandex.ru&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
@@ -54,13 +63,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/img/content" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/ui/Icon/icons" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.css.dialects" />
     <property name="ts.external.directory.path" value="G:\MyFiles\DEV_Web\aodzone_new\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\MyFiles\DEV_Web\aodzone_new\src\components\ui\Icon\icons" />
       <recent name="G:\MyFiles\DEV_Web\aodzone_new\public\img\content" />
       <recent name="G:\MyFiles\DEV_Web\aodzone_new\public\img" />
       <recent name="G:\MyFiles\DEV_Web\aodzone_new\src\components\ui" />
@@ -108,7 +118,8 @@
       <workItem from="1634061160931" duration="1248000" />
       <workItem from="1634665256356" duration="1188000" />
       <workItem from="1634751221047" duration="9313000" />
-      <workItem from="1634921071445" duration="469000" />
+      <workItem from="1634921071445" duration="1115000" />
+      <workItem from="1634933975979" duration="2433000" />
     </task>
     <task id="LOCAL-00001" summary="Организация иконок&#10;Базовый функционал Слайдера&#10;Настройка проекта">
       <created>1617528695087</created>
@@ -131,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617646773565</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Детальная страница новости&#10;Рефакторинг">
+      <created>1634921629698</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1634921629698</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +159,7 @@
     <MESSAGE value="Организация иконок&#10;Базовый функционал Слайдера&#10;Настройка проекта" />
     <MESSAGE value="Компонент Новостей&#10;Функционал слайдера&#10;Организация иконок" />
     <MESSAGE value="Реорганизация иконок" />
-    <option name="LAST_COMMIT_MESSAGE" value="Реорганизация иконок" />
+    <MESSAGE value="Детальная страница новости&#10;Рефакторинг" />
+    <option name="LAST_COMMIT_MESSAGE" value="Детальная страница новости&#10;Рефакторинг" />
   </component>
 </project>

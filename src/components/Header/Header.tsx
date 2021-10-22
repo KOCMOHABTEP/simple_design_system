@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import styles from "./Header.module.css";
-import Icon from "../ui/Icon/Icon";
+import Icon from "@components/ui/Icon/Icon";
 
 
 export const Header = () => {
@@ -11,18 +11,18 @@ export const Header = () => {
                 <div className={styles.controls}>
                     <a href="#">
                         <div className={styles.controlsItem}>
-                            <Icon icon="notification"/>
+                            <Icon name="notification"/>
                         </div>        
                     </a>
                     <a href="#">
                         <div className={styles.controlsItem}>
-                            <Icon icon="message"/>
+                            <Icon name="message"/>
                             <div className={styles.controlsActivities}>7</div>
                         </div>
                     </a>
                     <a href="#">
                         <div className={styles.controlsItem}>
-                            <Icon icon="friends"/>
+                            <Icon name="friends"/>
                             <div className={styles.controlsActivities}>1</div>
                         </div>
                     </a>
