@@ -6,6 +6,7 @@
     box-shadow: var(--box-shadow);
     margin: var(--spacing-2);
     position: relative;
+    cursor: pointer;
     flex: 0 0 calc(50% - var(--spacing-4));
     transition: transform 0.3s ease;
 }

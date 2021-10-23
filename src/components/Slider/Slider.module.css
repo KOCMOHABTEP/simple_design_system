@@ -37,15 +37,8 @@
 .sliderControlsItemIcon {
     fill: var(--black);
     margin: 0;
+    transform: translate(-50%, -50%);
     position: absolute;
     top: 50%;
     left: 50%;
-}
-
-.sliderControlsItemIconLeft {
-    transform: translate(-50%, -50%) rotate(180deg);
-}
-
-.sliderControlsItemIconRight {
-    transform: translate(-50%, -50%) rotate(0);
 }

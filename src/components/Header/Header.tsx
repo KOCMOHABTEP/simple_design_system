@@ -16,7 +16,7 @@ export const Header = () => {
                     </a>
                     <a href="#">
                         <div className={styles.controlsItem}>
-                            <Icon name="message"/>
+                            <Icon name="comments"/>
                             <div className={styles.controlsActivities}>7</div>
                         </div>
                     </a>

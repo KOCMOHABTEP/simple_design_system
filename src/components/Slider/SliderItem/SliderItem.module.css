@@ -15,9 +15,10 @@
 }
 
 .sliderItemContent {
+    padding: var(--spacing-4);
     position: absolute;
-    left: 30px;
-    bottom: 30px;
+    left: 0;
+    bottom: 0;
 }
 
 .sliderItemContentFrame {

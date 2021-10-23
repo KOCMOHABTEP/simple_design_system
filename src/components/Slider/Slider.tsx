@@ -53,10 +53,10 @@ const Slider = () => {
         <div className={styles.slider}>
             <div className={styles.sliderControls}>
                 <div className={styles.sliderControlsItem} onClick={prevSlide} >
-                    <Icon className={cn(styles.sliderControlsItemIcon, styles.sliderControlsItemIconLeft)} name="arrow" size={16}/> 
+                    <Icon className={cn(styles.sliderControlsItemIcon)} name="arrow_left" /> 
                 </div>
                 <div className={styles.sliderControlsItem} onClick={nextSlide} >
-                    <Icon className={cn(styles.sliderControlsItemIcon, styles.sliderControlsItemIconRight)} name="arrow" size={16}/>
+                    <Icon className={cn(styles.sliderControlsItemIcon)} name="arrow_right" />
                 </div>
             </div>
             <div className={styles.sliderInner}>

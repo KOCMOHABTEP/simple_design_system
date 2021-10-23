@@ -56,5 +56,9 @@
 
 .newsDetailFooter {
     border-top: var(--border);
-    padding: var(--spacing-4);
+    padding-top: var(--spacing-4);
+}
+
+.newsDetailFooterControls {
+    
 }

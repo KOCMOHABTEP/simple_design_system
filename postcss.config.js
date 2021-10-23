@@ -1,4 +1,4 @@
-module.exports = ({ env }) => ({
+module.exports = {
     "plugins": [
         "postcss-flexbugs-fixes",
         [
@@ -10,12 +10,8 @@ module.exports = ({ env }) => ({
                 "stage": 3,
                 "features": {
                     "nesting-rules": true,
-                    "custom-properties": {
-                        "importFrom": "./src/styles/vars.css",
-                        "preserve": false
-                    }
                 }
             }
         ]
     ]
-})
+}

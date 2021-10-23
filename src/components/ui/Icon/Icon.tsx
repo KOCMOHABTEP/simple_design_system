@@ -3,7 +3,7 @@ import styles from "./Icon.module.css";
 import {ICON_LIBRARY, ICON_NAME} from "@components/ui/Icon/Icon.library";
 
 interface IconProps {
-    name: ICON_NAME,
+    name: ICON_NAME | string,
     size? : number,
     className? : string
 }
@@ -11,7 +11,7 @@ interface IconProps {
 const Icon = ({name, size = 24, className} : IconProps) => {
     const props = {
         ...(size ? {width: size, height: size} : null),
-        ...(className ? {className} : null)
+        className : cn(styles.icon, className)
     }
 
     const resultComponent = ICON_LIBRARY[name]?.(props); 
