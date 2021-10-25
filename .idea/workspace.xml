@@ -2,40 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d8d035f-f0b7-4d19-9519-73a9b5d6531c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/ui/Icon/icons/arrow_down.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/Icon/icons/arrow_left.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/Icon/icons/arrow_right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/Icon/icons/arrow_up.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/Icon/icons/chat.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/Icon/icons/like.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/404.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vercel.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/News/NewsDetail/NewsDetail.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/News/NewsDetail/NewsDetail.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/News/NewsDetail/NewsDetail.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/News/NewsDetail/NewsDetail.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/News/NewsItem/NewsItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/News/NewsItem/NewsItem.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Slider/Slider.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slider/Slider.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Slider/Slider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slider/Slider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Slider/SliderItem/SliderItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slider/SliderItem/SliderItem.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/Icon/Icon.library.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Icon/Icon.library.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/ActiveLink/ActiveLink.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/ActiveLink/ActiveLink.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ui/Icon/Icon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Icon/Icon.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/Icon/icons/arrow.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/Icon/icons/comments.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/Icon/icons/friends.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Icon/icons/friends.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/Icon/icons/groups.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Icon/icons/groups.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/Icon/icons/home.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Icon/icons/home.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/Icon/icons/matches.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Icon/icons/matches.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/Icon/icons/media.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Icon/icons/media.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/Icon/icons/message.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/Icon/icons/news.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Icon/icons/news.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/Icon/icons/notification.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Icon/icons/notification.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/Icon/icons/streams.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Icon/icons/streams.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/Icon/icons/team.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Icon/icons/team.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/Icon/icons/views.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Icon/icons/views.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/Icon/icons/game-blackops.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Icon/icons/game-blackops.svg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,9 +26,6 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="4" />
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1q6ZNMt0CteZlI17EO78oIvSHrP" />
   <component name="ProjectLevelVcsManager">
@@ -128,7 +96,9 @@
       <workItem from="1634751221047" duration="9313000" />
       <workItem from="1634921071445" duration="1115000" />
       <workItem from="1634933975979" duration="2584000" />
-      <workItem from="1634977523147" duration="7551000" />
+      <workItem from="1634977523147" duration="7744000" />
+      <workItem from="1635094441838" duration="5521000" />
+      <workItem from="1635143984103" duration="1022000" />
     </task>
     <task id="LOCAL-00001" summary="Организация иконок&#10;Базовый функционал Слайдера&#10;Настройка проекта">
       <created>1617528695087</created>
@@ -165,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634936570087</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Настройка компонента с иконками&#10;Настройка SVG&#10;Изменение postcss.config.js&#10;Изменен вызов иконок во всем проекте">
+      <created>1634999513595</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1634999513595</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +154,8 @@
     <MESSAGE value="Реорганизация иконок" />
     <MESSAGE value="Детальная страница новости&#10;Рефакторинг" />
     <MESSAGE value="Компонент с иконками svgr&#10;Базовый набор библиотеки иконок&#10;Добавление svg файлов для иконок" />
-    <option name="LAST_COMMIT_MESSAGE" value="Компонент с иконками svgr&#10;Базовый набор библиотеки иконок&#10;Добавление svg файлов для иконок" />
+    <MESSAGE value="Настройка компонента с иконками&#10;Настройка SVG&#10;Изменение postcss.config.js&#10;Изменен вызов иконок во всем проекте" />
+    <option name="LAST_COMMIT_MESSAGE" value="Настройка компонента с иконками&#10;Настройка SVG&#10;Изменение postcss.config.js&#10;Изменен вызов иконок во всем проекте" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

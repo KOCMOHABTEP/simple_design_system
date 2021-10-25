@@ -1,25 +1,34 @@
-import { withRouter } from 'next/router';
+import {useRouter} from 'next/router';
 import Link from 'next/link';
-import React, { Children } from 'react';
+import React, {Children} from 'react';
 
-interface LinkProps  {
-    router: any;
+interface LinkProps {
     href: string;
     children: any;
     activeClassName: string;
+    
+    exact?: boolean
 }
 
-const ActiveLink = ({ router, children, ...props }:LinkProps) => {
+const ActiveLink = ({children, exact, ...props}: LinkProps) => {
+    const router = useRouter();
+
+    const segment = (p) => new URL(p, window.location.origin).pathname.split('/').filter(s => s);
+    const currentPath = segment(router.asPath);
+    const targetPath = segment(props.href);
+
+    const isActive = currentPath.length >= targetPath.length
+        && targetPath.every((p, i) => currentPath[i] === p)
+        && (!exact || targetPath.length === currentPath.length);
+    
     const child = Children.only(children);
+    const childClassName = child.props.className || '';
 
-    let className = child.props.className || '';
-    if (router.pathname === props.href && props.activeClassName) {
-        className = `${className} ${props.activeClassName}`.trim();
-    }
+    const className = isActive ?
+        `${childClassName} ${props.activeClassName}`.trim() :
+        childClassName;
 
-    delete props.activeClassName;
-
-    return <Link {...props}>{React.cloneElement(child, { className })}</Link>;
+    return <Link {...props}>{React.cloneElement(child, {className})}</Link>;
 };
 
-export default withRouter(ActiveLink);
+export default ActiveLink;

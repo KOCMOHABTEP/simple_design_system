@@ -10,7 +10,7 @@ export const Sidebar = () => {
             <div className={styles.logo}>
                 <div className={styles.logoInner} />
             </div>
-            <ActiveLink href="/" activeClassName={styles.active}>
+            <ActiveLink href="/" activeClassName={styles.active} exact>
                 <div className={styles.item}>
                     <Icon name="home"/>
                     <span className={styles.itemText}>Главная</span>
