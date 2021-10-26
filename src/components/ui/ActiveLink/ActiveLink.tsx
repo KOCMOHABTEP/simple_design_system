@@ -13,7 +13,7 @@ interface LinkProps {
 const ActiveLink = ({children, exact, ...props}: LinkProps) => {
     const router = useRouter();
 
-    const segment = (p) => new URL(p, window.location.origin).pathname.split('/').filter(s => s);
+    const segment = (p) => new URL(p, "http://www.example.com").pathname.split('/').filter(s => s);
     const currentPath = segment(router.asPath);
     const targetPath = segment(props.href);
 

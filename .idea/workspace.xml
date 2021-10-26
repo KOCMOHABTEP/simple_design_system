@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d8d035f-f0b7-4d19-9519-73a9b5d6531c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/404.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ui/ActiveLink/ActiveLink.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/ActiveLink/ActiveLink.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/Icon/Icon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Icon/Icon.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/Icon/icons/game-blackops.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Icon/icons/game-blackops.svg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +95,9 @@
       <workItem from="1634933975979" duration="2584000" />
       <workItem from="1634977523147" duration="7744000" />
       <workItem from="1635094441838" duration="5521000" />
-      <workItem from="1635143984103" duration="1022000" />
+      <workItem from="1635143984103" duration="3889000" />
+      <workItem from="1635152425881" duration="1780000" />
+      <workItem from="1635161742278" duration="4290000" />
     </task>
     <task id="LOCAL-00001" summary="Организация иконок&#10;Базовый функционал Слайдера&#10;Настройка проекта">
       <created>1617528695087</created>
@@ -142,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634999513595</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Корректировка маршрутов в Sidebar &#10;Добавление 404 страницы&#10;TODO: Стилизовать 404 страницу">
+      <created>1635145171192</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1635145171192</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,7 +161,8 @@
     <MESSAGE value="Детальная страница новости&#10;Рефакторинг" />
     <MESSAGE value="Компонент с иконками svgr&#10;Базовый набор библиотеки иконок&#10;Добавление svg файлов для иконок" />
     <MESSAGE value="Настройка компонента с иконками&#10;Настройка SVG&#10;Изменение postcss.config.js&#10;Изменен вызов иконок во всем проекте" />
-    <option name="LAST_COMMIT_MESSAGE" value="Настройка компонента с иконками&#10;Настройка SVG&#10;Изменение postcss.config.js&#10;Изменен вызов иконок во всем проекте" />
+    <MESSAGE value="Корректировка маршрутов в Sidebar &#10;Добавление 404 страницы&#10;TODO: Стилизовать 404 страницу" />
+    <option name="LAST_COMMIT_MESSAGE" value="Корректировка маршрутов в Sidebar &#10;Добавление 404 страницы&#10;TODO: Стилизовать 404 страницу" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
