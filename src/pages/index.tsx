@@ -1,12 +1,14 @@
-import Layout from "@components/Layout/Layout";
+import Layout from "@layouts/Layout/Layout";
 import Slider from "@components/Slider/Slider";
-import {NewsList} from "@components/News/NewsList";
+import NewsList from "@layouts/News/NewsList";
 
-export default function Home() {
+const Home = () => {
     return (
         <Layout>
             <Slider />
             <NewsList />
         </Layout>
     )
-};
+}
+
+export default Home;

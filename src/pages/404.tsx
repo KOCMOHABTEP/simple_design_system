@@ -1,9 +1,11 @@
-import Layout from "@components/Layout/Layout";
+import Layout from "@layouts/Layout/Layout";
 
-export default function NotFoundPage() {
+const NotFoundPage = () => {
     return (
         <Layout>
             404 Не найдено
         </Layout>
     )
-};
+}
+
+export default NotFoundPage;

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
+import Avatar from "@components/ui/Avatar/Avatar";
 import styles from "./Header.module.css";
 import Icon from "@components/ui/Icon/Icon";
 
@@ -27,13 +27,12 @@ export const Header = () => {
                         </div>
                     </a>
                 </div>
-                {/*Профиль*/}
-                <div className={styles.profile}>
-                    <a href="#" >
-                        <div className={styles.profileLevel}>34</div>
-                        <div className={styles.profileImage} />
+                
+                <Link href={"/profile"} passHref={true}>
+                    <a>
+                        <Avatar level={34} />
                     </a>
-                </div>
+                </Link>
             </div>
         </div>
     )

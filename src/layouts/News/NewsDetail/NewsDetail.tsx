@@ -75,3 +75,5 @@ export const NewsDetail = () => {
         </div>
     )
 }
+
+export default NewsDetail;

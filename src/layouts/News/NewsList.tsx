@@ -1,7 +1,7 @@
 import styles from "./NewsList.module.css";
-import NewsItem from "@components/News/NewsItem/NewsItem";
+import NewsItem from "@layouts/News/NewsItem/NewsItem";
 
-export const NewsList = () => {
+const NewsList = () => {
 
     const newsList = [
         {
@@ -64,4 +64,6 @@ export const NewsList = () => {
             </div>
         </div>
     )
-}
+};
+
+export default NewsList;

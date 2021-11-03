@@ -1,10 +1,12 @@
-import Layout from "@components/Layout/Layout";
-import {NewsList} from "@components/News/NewsList";
+import Layout from "@layouts/Layout/Layout";
+import NewsList from "@layouts/News/NewsList";
 
-export default function News() {
+const NewsPage = () => {
     return (
         <Layout title="AOD Zone | Новости">
             <NewsList />
         </Layout>
     )
-};
+}
+
+export default NewsPage;

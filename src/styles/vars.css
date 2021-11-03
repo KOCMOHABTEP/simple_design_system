@@ -14,7 +14,7 @@
     --color-green-dark: #40809C;
     
     /* GRADIENTS */
-    --gradient: linear-gradient(270deg, #00FBA4 0%, #40809C 100%);
+    --gradient-green: linear-gradient(270deg, #00FBA4 0%, #40809C 100%);
     
     --color-header: #333333;
     --color-link: #8888ee;
