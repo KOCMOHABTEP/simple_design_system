@@ -35,7 +35,7 @@
 }
 
 .newsItemDescription {
-    font-size: var(--fs-med);
+    font-size: var(--font-size-md);
     height: 36px;
     overflow: hidden;
     margin-bottom: var(--spacing-3);
@@ -46,7 +46,7 @@
 }
 
 .newsItemStatsControl {
-    font-size: var(--fs-sm);
+    font-size: var(--font-size-sm);
     font-weight: bold;
     color: var(--color-grey);
     line-height: 16px;

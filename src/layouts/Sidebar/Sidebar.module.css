@@ -47,6 +47,10 @@
     }
 }
 
+.itemIcon {
+    margin-right: var(--spacing-2);
+}
+
 .itemText {
     font-size: 16px;
 }

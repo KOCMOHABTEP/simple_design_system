@@ -56,17 +56,14 @@
     --spacing-neg-12: -96px;
 
     /* TYPOGRAPHY */
-    --fs-base: 16px;
-    --fs-med: 14px;
-    --fs-sm: 12px;
-
-    //--font-size-sm: 0.875rem;
-    //--font-size-md: 1rem;
-    //--font-size-lg: 1.125rem;
-    //--font-size-xl: 1.25rem;
-    //--font-size-2xl: 1.5rem;
-    //--font-size-3xl: 2rem;
-    //--font-size-4xl: 3rem;
+    --font-size-base: 16px;
+    --font-size-sm: 12px;
+    --font-size-md: 14px;
+    --font-size-lg: 20px;
+    --font-size-xl: 32px;
+    --font-size-2xl: 48px;
+    --font-size-3xl: 64px;
+    --font-size-4xl: 80px;
     
     --fs-normal: 1.6rem;
     --lh-normal: 1.2;

@@ -2,8 +2,24 @@
     position: relative;
 }
 
+.avatarLarge {
+    
+    & .avatarImage {
+        width: 180px;
+        height: 180px;
+        border: solid 6px var(--color-green);    
+    }
+    
+    & .avatarLevel {
+        font-size: var(--font-size-lg);
+        line-height: 48px;
+        width: 48px;
+        height: 48px;
+    }
+}
+
 .avatarLevel {
-    font-size: var(--fs-sm);
+    font-size: var(--font-size-sm);
     font-weight: bold;
     color: var(--color-background);
     text-align: center;
@@ -12,18 +28,29 @@
     height: 24px;
     border-radius: 50%;
     background: var(--color-green);
+    box-shadow: var(--box-shadow);
     position: absolute;
-    left: -6px;
-    bottom: -2px;
+    left: -8px;
+    bottom: 0;
+    z-index: 10;
 }
 
 .avatarImage {
     height: 50px;
     width: 50px;
-    cursor: pointer;
     border-radius: 50%;
+    overflow: hidden;
+    position: relative;
     border: solid 2px var(--color-green);
     background: var(--color-background-lighter);
     box-shadow: var(--box-shadow);
     transition: border 0.3s ease;
+}
+
+.avatarImage img {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }

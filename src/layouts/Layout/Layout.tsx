@@ -1,6 +1,6 @@
-import {Header} from "@components/../Header/Header";
-import {Sidebar} from "@components/../Sidebar/Sidebar";
-import {Container} from "@components/../Container/Container";
+import {Header} from "@layouts/Header/Header";
+import {Sidebar} from "@layouts/Sidebar/Sidebar";
+import {Container} from "@layouts/Container/Container";
 import Head from "next/head";
 
 interface ILayout {

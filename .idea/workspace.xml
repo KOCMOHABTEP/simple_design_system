@@ -2,34 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d8d035f-f0b7-4d19-9519-73a9b5d6531c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/ui/Avatar/Avatar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layouts/Layout/Layout.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layouts/Profile/ProfileUserBanner/ProfileUserBanner.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layouts/Profile/ProfileUserBanner/ProfileUserBanner.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/profile/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/team/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/avatar_invader.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/wallpaper-space.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/Icon/icons/socials-steam.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Container/Container.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Container/Container.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Container/Container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Container/Container.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Header/Header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Avatar/Avatar.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Layout/Layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/News/NewsDetail/NewsDetail.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/News/NewsDetail/NewsDetail.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/News/NewsDetail/NewsDetail.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/News/NewsDetail/NewsDetail.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/News/NewsItem/NewsItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/News/NewsItem/NewsItem.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/News/NewsItem/NewsItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/News/NewsItem/NewsItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/News/NewsList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/News/NewsList.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/News/NewsList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/News/NewsList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Sidebar/Sidebar.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Sidebar/Sidebar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Slider/Slider.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slider/Slider.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/404.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/news/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/news/[id].tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/news/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/news/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/Avatar/Avatar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Avatar/Avatar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/Avatar/Avatar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Avatar/Avatar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/Icon/Icon.library.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Icon/Icon.library.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/Icon/Icon.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Icon/Icon.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Layout/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/News/NewsItem/NewsItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/News/NewsItem/NewsItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Profile/ProfileUserBanner/ProfileUserBanner.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Profile/ProfileUserBanner/ProfileUserBanner.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Profile/ProfileUserBanner/ProfileUserBanner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Profile/ProfileUserBanner/ProfileUserBanner.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Sidebar/Sidebar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Sidebar/Sidebar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Sidebar/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Sidebar/Sidebar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/vars.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/vars.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +36,14 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="4" />
   </component>
@@ -60,21 +57,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/ui/Icon/icons" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/img" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.css.dialects" />
     <property name="ts.external.directory.path" value="G:\MyFiles\DEV_Web\aodzone_new\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\MyFiles\DEV_Web\aodzone_new\public\img" />
       <recent name="G:\MyFiles\DEV_Web\aodzone_new\src\components\ui\Icon\icons" />
       <recent name="G:\MyFiles\DEV_Web\aodzone_new\public\img\content" />
-      <recent name="G:\MyFiles\DEV_Web\aodzone_new\public\img" />
       <recent name="G:\MyFiles\DEV_Web\aodzone_new\src\components\ui" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\MyFiles\DEV_Web\aodzone_new\src\components\ui\Icon\icons" />
       <recent name="G:\MyFiles\DEV_Web\aodzone_new\src\layouts" />
       <recent name="G:\MyFiles\DEV_Web\aodzone_new\src\layouts\Profile\ProfileUserBanner" />
     </key>
@@ -130,7 +129,8 @@
       <workItem from="1635161742278" duration="4290000" />
       <workItem from="1635271526698" duration="216000" />
       <workItem from="1635675835660" duration="884000" />
-      <workItem from="1635939722715" duration="8759000" />
+      <workItem from="1635939722715" duration="8905000" />
+      <workItem from="1636456000060" duration="11714000" />
     </task>
     <task id="LOCAL-00001" summary="Организация иконок&#10;Базовый функционал Слайдера&#10;Настройка проекта">
       <created>1617528695087</created>
@@ -188,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635271737979</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Реорганизация файловой структуры">
+      <created>1635962796536</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1635962796536</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +210,8 @@
     <MESSAGE value="Настройка компонента с иконками&#10;Настройка SVG&#10;Изменение postcss.config.js&#10;Изменен вызов иконок во всем проекте" />
     <MESSAGE value="Корректировка маршрутов в Sidebar &#10;Добавление 404 страницы&#10;TODO: Стилизовать 404 страницу" />
     <MESSAGE value="Исправление ошибки в конструкторе URL в ActiveLink.tsx" />
-    <option name="LAST_COMMIT_MESSAGE" value="Исправление ошибки в конструкторе URL в ActiveLink.tsx" />
+    <MESSAGE value="Реорганизация файловой структуры" />
+    <option name="LAST_COMMIT_MESSAGE" value="Реорганизация файловой структуры" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

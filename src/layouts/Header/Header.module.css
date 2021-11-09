@@ -57,33 +57,3 @@
     top: -3px;
     right: -3px;
 }
-
-.profile {
-    position: relative;
-}
-
-.profileLevel {
-    font-size: var(--fs-sm);
-    font-weight: bold;
-    color: var(--color-background);
-    text-align: center;
-    line-height: 24px;
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    background: var(--color-green);
-    position: absolute;
-    left: -6px;
-    bottom: -2px;
-}
-
-.profileImage {
-    height: 50px;
-    width: 50px;
-    cursor: pointer;
-    border-radius: 50%;
-    border: solid 2px var(--color-green);
-    background: var(--color-background-lighter);
-    box-shadow: var(--box-shadow);
-    transition: border 0.3s ease;
-}

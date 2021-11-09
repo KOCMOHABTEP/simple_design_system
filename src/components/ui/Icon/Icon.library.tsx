@@ -15,6 +15,7 @@ import IconNotification from "./icons/notification.svg";
 import IconStreams from "./icons/streams.svg";
 import IconTeam from "./icons/team.svg";
 import IconViews from "./icons/views.svg";
+import IconSteam from "./icons/socials-steam.svg";
 
 export type ICON_NAME = keyof typeof ICON_LIBRARY;
 
@@ -36,4 +37,5 @@ export const ICON_LIBRARY = {
     "streams": (props: any) => <IconStreams {...props} />,
     "team": (props: any) => <IconTeam {...props} />,
     "views": (props: any) => <IconViews {...props} />,
+    "social-steam": (props: any) => <IconSteam {...props} />,
 }
