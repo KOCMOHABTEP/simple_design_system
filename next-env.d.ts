@@ -1,11 +1,6 @@
 /// <reference types="next" />
 /// <reference types="next/types/global" />
-declare module '*.css' {
-    const content: string;
-    export default content;
-}
+/// <reference types="next/image-types/global" />
 
-declare module "*.svg" {
-    const ReactComponent: React.FC<React.SVGProps<SVGSVGElement>>;
-    export default ReactComponent;
-}
+// NOTE: This file should not be edited
+// see https://nextjs.org/docs/basic-features/typescript for more information.

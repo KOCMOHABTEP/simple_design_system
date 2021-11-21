@@ -11,50 +11,6 @@
     z-index: var(--zindex-sidebar);
 }
 
-.item {
-    height: 50px;
-    padding: 15px 30px 15px 30px;
-    cursor: pointer;
-    opacity: 0.5;
-    display: flex;
-    align-items: center;
-    position: relative;
-    transition: background 0.3s ease;
-    
-    &.active {
-        color: var(--color-green);
-        background: var(--color-background-lighter);
-        opacity: 1;
-        
-        &:after {
-            content: "";
-            width: 4px;
-            height: 100%;
-            background: var(--color-green);
-            position: absolute;
-            top: 0;
-            right: 0;
-        }
-        
-        & svg {
-            fill: var(--color-green);
-        }
-    }
-    
-    &:hover {
-        opacity: 1;
-        background: var(--color-background-lighter);
-    }
-}
-
-.itemIcon {
-    margin-right: var(--spacing-2);
-}
-
-.itemText {
-    font-size: 16px;
-}
-
 .logo {
     height: 50px;
     width: 320px;
@@ -69,6 +25,11 @@
     background: var(--white);
 }
 
+.sidebarList {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
 
 
 

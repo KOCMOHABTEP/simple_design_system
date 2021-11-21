@@ -6,7 +6,7 @@ interface LinkProps {
     href: string;
     children: any;
     activeClassName: string;
-    
+    passHref?: boolean
     exact?: boolean
 }
 
@@ -27,6 +27,8 @@ const ActiveLink = ({children, exact, ...props}: LinkProps) => {
     const className = isActive ?
         `${childClassName} ${props.activeClassName}`.trim() :
         childClassName;
+
+    console.log(className)
 
     return <Link {...props}>{React.cloneElement(child, {className})}</Link>;
 };
