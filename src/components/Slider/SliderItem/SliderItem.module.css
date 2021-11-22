@@ -7,11 +7,11 @@
     top: 0;
     left: 0;
     z-index: 10;
-    
-    &.sliderItemActive {
-        z-index: 20;
-        opacity: 1;
-    }
+}
+
+.sliderItem.sliderItemActive {
+    z-index: 20;
+    opacity: 1;
 }
 
 .sliderItemContent {
@@ -28,22 +28,26 @@
     position: absolute;
     left: 0;
     top: 0;
+}
 
-    &:after {
-        content: "";
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        background: linear-gradient(-150deg, rgba(247,247,247,0) 0%, rgba(25,25,30,1) 100%);
-    }
+.sliderItemContentFrame:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(-150deg, rgba(247,247,247,0) 0%, rgba(25,25,30,1) 100%);
 }
 
 .sliderItemContentGame {
     margin-bottom: 10px;
     position: relative;
     display: flex;
+}
+
+.sliderItemContentIcon {
+    margin-right: var(--spacing-1);
 }
 
 .sliderItemContentGameText {
