@@ -18,17 +18,17 @@
     top: 0;
     left: 0;
     z-index: 10;
-    
-    &:after {
-        content: "";
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(180deg, rgba(255,255,255,0) 0, rgba(0,0,0,1) 100%);
-        position: absolute;
-        left: 0;
-        bottom: 0;
-    }
 }
+
+.bannerBodyImage:after {
+     content: "";
+     width: 100%;
+     height: 100%;
+     background: linear-gradient(180deg, rgba(255,255,255,0) 0, rgba(0,0,0,1) 100%);
+     position: absolute;
+     left: 0;
+     bottom: 0;
+ }
 
 .bannerBodyImageImg {
     width: 100%;
@@ -66,7 +66,7 @@
 .userMembership {
     font-size: var(--font-size-md);
     margin-bottom: var(--spacing-2);
-    color: var(--color-grey);
+    color: var(--color-green-darker);
 }
 
 .userSocials {
@@ -74,7 +74,7 @@
 }
 
 .userSocialsLink {
-    color: var(--white);
+    color: var(--color-white);
 }
 
 .userSocialsItem {

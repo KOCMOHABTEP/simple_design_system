@@ -28,8 +28,6 @@ const ActiveLink = ({children, exact, ...props}: LinkProps) => {
         `${childClassName} ${props.activeClassName}`.trim() :
         childClassName;
 
-    console.log(className)
-
     return <Link {...props}>{React.cloneElement(child, {className})}</Link>;
 };
 

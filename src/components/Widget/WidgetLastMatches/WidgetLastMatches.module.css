@@ -1,0 +1,35 @@
+.match {
+    width: 100%;
+    padding: var(--spacing-2);
+    border-radius: var(--radius-md);
+    border: var(--border-light);
+    background: var(--color-background-lighter);
+}
+
+.matchHead {
+    margin-bottom: var(--spacing-2);
+    display: flex;
+    justify-content: space-between;
+}
+
+.matchHeadDate {
+    font-size: var(--font-size-md);
+    color: var(--color-grey);
+}
+
+.matchHeadResults {
+    font-size: var(--font-size-md);
+    color: var(--color-grey);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.matchHeadResultsIcon {
+    fill: var(--color-grey);
+}
+
+.matchHeadResultsStatus {
+    font-weight: bold;
+    color: var(--color-green);
+}

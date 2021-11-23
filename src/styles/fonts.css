@@ -1,17 +1,17 @@
 @font-face {
     font-family: "AvenirNextCyr";
     font-weight: 400;
-    src: url("../../public/fonts/AvenirNextCyr-Regular.ttf") format('truetype');
+    src: url("./../../public/fonts/AvenirNextCyr-Medium.ttf") format('truetype');
 }
 
 @font-face {
     font-family: "AvenirNextCyr";
     font-weight: 700;
-    src: url("../../public/fonts/AvenirNextCyr-Bold.ttf") format('truetype');
+    src: url("./../../public/fonts/AvenirNextCyr-Bold.ttf") format('truetype');
 }
 
 @font-face {
     font-family: "AvenirNextCyr";
     font-weight: 900;
-    src: url("../../public/fonts/AvenirNextCyr-Heavy.ttf") format('truetype');
+    src: url("./../../public/fonts/AvenirNextCyr-Heavy.ttf") format('truetype');
 }

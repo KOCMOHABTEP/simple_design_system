@@ -38,10 +38,10 @@
 .controlsItem svg {
     opacity: 0.5;
     transition: 0.3s;
+}
 
-    &:hover {
-        opacity: 1;
-    }
+.controlsItem svg:hover {
+    opacity: 1;
 }
 
 .controlsActivities {

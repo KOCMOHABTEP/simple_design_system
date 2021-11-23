@@ -2,20 +2,17 @@
     position: relative;
 }
 
-.avatarLarge {
-    
-    & .avatarImage {
-        width: 180px;
-        height: 180px;
-        border: solid 6px var(--color-green);    
-    }
-    
-    & .avatarLevel {
-        font-size: var(--font-size-lg);
-        line-height: 48px;
-        width: 48px;
-        height: 48px;
-    }
+.avatarLarge .avatarImage {
+    width: 180px;
+    height: 180px;
+    border: solid 6px var(--color-green);
+}
+
+.avatarLarge .avatarLevel {
+    font-size: var(--font-size-lg);
+    line-height: 48px;
+    width: 48px;
+    height: 48px;
 }
 
 .avatarLevel {

@@ -21,8 +21,8 @@ export const Sidebar = () => {
             <ul className={styles.sidebarList}>
                 {
                     sidebarRoutesItems.map((items, index) => (
-                        <li>
-                            <SidebarItem key={index} {...items} />
+                        <li key={index}>
+                            <SidebarItem {...items} />
                         </li>
                     ))
                 }
