@@ -1,0 +1,28 @@
+.inputWrapper {
+    position: relative;
+}
+
+.inputPlaceholder {
+    color: var(--color-grey);
+    position: absolute;
+    font-size: 14px;
+    top: 16px;
+    left: 20px;
+}
+
+.inputPlaceholderModified {
+    top: 6px;
+    font-size: 12px;
+}
+
+.input {
+    font-family: inherit;
+    font-size: 14px;
+    background-color: var(--color-background-lighter);
+    color: var(--color-white);
+    width: 250px;
+    outline: none;
+    padding: 25px 20px 8px 20px;
+    border-radius: var(--radius-md);
+    border: solid 1px var(--color-green);
+}
