@@ -7,6 +7,7 @@ import IconError from "./icons/error.svg";
 import IconFriends from "./icons/friends.svg";
 import IconGameBlackOps from "./icons/game-blackops.svg";
 import IconGroups from "./icons/groups.svg";
+import IconHint from "./icons/hint.svg";
 import IconHome from "./icons/home.svg";
 import IconLike from "./icons/like.svg";
 import IconMatches from "./icons/matches.svg";
@@ -31,6 +32,7 @@ export const ICON_LIBRARY = {
     "friends": (props: any) => <IconFriends {...props} />,
     "game-blackops": (props: any) => <IconGameBlackOps {...props} />,
     "groups": (props: any) => <IconGroups {...props} />,
+    "hint": (props: any) => <IconHint {...props} />,
     "home": (props: any) => <IconHome {...props} />,
     "like": (props: any) => <IconLike {...props} />,
     "matches": (props: any) => <IconMatches {...props} />,

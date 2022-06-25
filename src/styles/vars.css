@@ -1,4 +1,8 @@
 :root {
+    /* NEW UI */
+    --ui-dark: #21212E;
+    --field-disabled: #3C3C54;
+
     /* CUSTOM */
     --color-primary: #2277bc;
     
@@ -8,7 +12,7 @@
     --color-background-lighter: #2c2d3b;
     --color-grey: #7a7a99;
 
-    --color-border: #2c2d3b;
+    --color-border: #363543;
     --color-border-light: #414358;
     
     --color-violet: #928FFF;
@@ -16,6 +20,7 @@
     --color-green-dark: #40809C;
     --color-green-darker: #329B9D;
 
+    --color-red-light: #FF6B69;
     --color-red: #EB2B00;
     --color-red-dark: #9E1E00;
 
@@ -95,8 +100,10 @@
     --border-light: 1px solid var(--color-border-light);
 
     /* SHADOWS */
+    --box-shadow-green: 0 0 0 2px rgba(35, 234, 164, 0.5);
+    --box-shadow-red: 0 0 0 2px rgba(255, 107, 105, 0.5);
     --box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.15);
-    
+
     /* ZINDEX */
     --zindex-sidebar: 5000;
     --zindex-header: 4000;

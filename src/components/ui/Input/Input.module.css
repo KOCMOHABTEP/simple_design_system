@@ -1,7 +1,22 @@
-.inputWrapper {
+.inputLabel {}
+
+.inputContainer {
     position: relative;
-    display: block;
-    margin-bottom: 24px;
+}
+
+.inputHint {
+    margin-bottom: var(--spacing-1);
+    display: flex;
+}
+
+.inputHintIcon {
+    color: var(--color-grey);
+    margin-right: var(--spacing-1);
+}
+
+.inputHintMessage {
+    font-size: 12px;
+    color: var(--color-grey);
 }
 
 .inputPlaceholder {
@@ -10,6 +25,7 @@
     font-size: 14px;
     top: 16px;
     left: 20px;
+    transition: all 0.3s ease;
 }
 
 .inputPlaceholderModified {
@@ -24,26 +40,42 @@
 .input {
     font-family: inherit;
     font-size: 14px;
-    background-color: var(--color-background-lighter);
+    background-color: var(--ui-dark);
     color: var(--color-white);
-    width: 250px;
+    width: 320px;
     outline: none;
     padding: 25px 20px 8px 20px;
     border-radius: var(--radius-md);
+    border: solid 1px var(--color-border);
+    transition: all 0.3s ease;
+}
+
+.input:focus {
     border: solid 1px var(--color-green);
+    box-shadow: var(--box-shadow-green);
+}
+
+.inputDisabled {
+    background-color: var(--field-disabled);
 }
 
 .inputError {
+    border: solid 1px var(--color-red-light);
+    box-shadow: var(--box-shadow-red);
+}
+
+.inputErrorContainer {
     margin-top: var(--spacing-1);
     display: flex;
 }
 
-.inputErrorIcon {
-    color: var(--color-red);
+.inputErrorContainerIcon {
+    color: var(--color-red-light);
     margin-right: var(--spacing-1);
 }
 
-.inputErrorMessage {
+.inputErrorContainerMessage {
+    font-weight: 100;
     font-size: 12px;
-    color: var(--color-red);
+    color: var(--color-red-light);
 }
