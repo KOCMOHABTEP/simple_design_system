@@ -22,7 +22,11 @@
 .logoInner {
     width: 100%;
     height: 50px;
-    background: var(--color-white);
+}
+
+.logoInnerSvg {
+    width: 160px;
+    height: auto;
 }
 
 .sidebarList {
