@@ -1,5 +1,7 @@
 .inputWrapper {
     position: relative;
+    display: block;
+    margin-bottom: 24px;
 }
 
 .inputPlaceholder {
@@ -15,6 +17,10 @@
     font-size: 12px;
 }
 
+.inputPlaceholderRequired {
+    color: var(--color-red);
+}
+
 .input {
     font-family: inherit;
     font-size: 14px;
@@ -25,4 +31,19 @@
     padding: 25px 20px 8px 20px;
     border-radius: var(--radius-md);
     border: solid 1px var(--color-green);
+}
+
+.inputError {
+    margin-top: var(--spacing-1);
+    display: flex;
+}
+
+.inputErrorIcon {
+    color: var(--color-red);
+    margin-right: var(--spacing-1);
+}
+
+.inputErrorMessage {
+    font-size: 12px;
+    color: var(--color-red);
 }
