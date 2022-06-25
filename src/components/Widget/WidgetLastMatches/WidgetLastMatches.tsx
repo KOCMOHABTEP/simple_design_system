@@ -1,44 +1,78 @@
-import {Widget} from "@components/Widget/Widget";
+import { Widget } from "@components/Widget/Widget";
 import cn from "classnames";
-import styles from "./WidgetLastMatches.module.css";
 import Icon from "@components/ui/Icon/Icon";
 import Avatar from "@components/ui/Avatar/Avatar";
 import Link from "next/link";
+import styles from "./WidgetLastMatches.module.css";
 
 export const WidgetLastMatches = () => {
     return (
-        <Widget title={"Последние матчи"}>
+        <Widget title="Последние матчи">
             <div className={styles.match}>
                 <div className={styles.matchHead}>
-                    <div className={styles.matchHeadDate}>22 Ноя 2021 : 19:30</div>
+                    <div className={styles.matchHeadDate}>
+                        22 Ноя 2021 : 19:30
+                    </div>
                     <div className={styles.matchHeadResults}>
-                        <Icon name={"timer"} size={16} className={styles.matchHeadResultsIcon} />
+                        <Icon
+                            name="timer"
+                            size={16}
+                            className={styles.matchHeadResultsIcon}
+                        />
                         <span>39 Мин</span>
                         <span>—</span>
-                        <div className={styles.matchHeadResultsStatus}>ПОБЕДА</div>
+                        <div className={styles.matchHeadResultsStatus}>
+                            ПОБЕДА
+                        </div>
                     </div>
                 </div>
                 <div className={styles.matchBody}>
                     <div className={styles.matchBodyResult}>
-                        <Link href="#" passHref={true}>
+                        <Link href="#" passHref>
                             <a>
-                                <div className={cn(styles.player, styles.playerLeft)}>
+                                <div
+                                    className={cn(
+                                        styles.player,
+                                        styles.playerLeft
+                                    )}
+                                >
                                     <Avatar level={0} />
                                     <div className={styles.playerInfo}>
-                                        <div className={styles.playerInfoNickname}>KOCMOHABT</div>
-                                        <div className={styles.playerInfoLevel}>Уровень 12</div>
+                                        <div
+                                            className={
+                                                styles.playerInfoNickname
+                                            }
+                                        >
+                                            KOCMOHABT
+                                        </div>
+                                        <div className={styles.playerInfoLevel}>
+                                            Уровень 12
+                                        </div>
                                     </div>
                                 </div>
                             </a>
                         </Link>
                         <div className={styles.matchScore}>1:0</div>
-                        <Link href="#" passHref={true}>
+                        <Link href="#" passHref>
                             <a>
-                                <div className={cn(styles.player, styles.playerRight)}>
+                                <div
+                                    className={cn(
+                                        styles.player,
+                                        styles.playerRight
+                                    )}
+                                >
                                     <Avatar level={0} />
                                     <div className={styles.playerInfo}>
-                                        <div className={styles.playerInfoNickname}>DreamCatcher</div>
-                                        <div className={styles.playerInfoLevel}>Уровень 9</div>
+                                        <div
+                                            className={
+                                                styles.playerInfoNickname
+                                            }
+                                        >
+                                            DreamCatcher
+                                        </div>
+                                        <div className={styles.playerInfoLevel}>
+                                            Уровень 9
+                                        </div>
                                     </div>
                                 </div>
                             </a>
@@ -62,23 +96,44 @@ export const WidgetLastMatches = () => {
             </div>
             <div className={styles.match}>
                 <div className={styles.matchHead}>
-                    <div className={styles.matchHeadDate}>22 Ноя 2021 : 19:30</div>
+                    <div className={styles.matchHeadDate}>
+                        22 Ноя 2021 : 19:30
+                    </div>
                     <div className={styles.matchHeadResults}>
-                        <Icon name={"timer"} size={16} className={styles.matchHeadResultsIcon} />
+                        <Icon
+                            name={"timer"}
+                            size={16}
+                            className={styles.matchHeadResultsIcon}
+                        />
                         <span>39 Мин</span>
                         <span>—</span>
-                        <div className={styles.matchHeadResultsStatus}>ПОБЕДА</div>
+                        <div className={styles.matchHeadResultsStatus}>
+                            ПОБЕДА
+                        </div>
                     </div>
                 </div>
                 <div className={styles.matchBody}>
                     <div className={styles.matchBodyResult}>
                         <Link href="#" passHref={true}>
                             <a>
-                                <div className={cn(styles.player, styles.playerLeft)}>
+                                <div
+                                    className={cn(
+                                        styles.player,
+                                        styles.playerLeft
+                                    )}
+                                >
                                     <Avatar level={0} />
                                     <div className={styles.playerInfo}>
-                                        <div className={styles.playerInfoNickname}>KOCMOHABT</div>
-                                        <div className={styles.playerInfoLevel}>Уровень 12</div>
+                                        <div
+                                            className={
+                                                styles.playerInfoNickname
+                                            }
+                                        >
+                                            KOCMOHABT
+                                        </div>
+                                        <div className={styles.playerInfoLevel}>
+                                            Уровень 12
+                                        </div>
                                     </div>
                                 </div>
                             </a>
@@ -86,11 +141,24 @@ export const WidgetLastMatches = () => {
                         <div className={styles.matchScore}>1:0</div>
                         <Link href="#" passHref={true}>
                             <a>
-                                <div className={cn(styles.player, styles.playerRight)}>
+                                <div
+                                    className={cn(
+                                        styles.player,
+                                        styles.playerRight
+                                    )}
+                                >
                                     <Avatar level={0} />
                                     <div className={styles.playerInfo}>
-                                        <div className={styles.playerInfoNickname}>DreamCatcher</div>
-                                        <div className={styles.playerInfoLevel}>Уровень 9</div>
+                                        <div
+                                            className={
+                                                styles.playerInfoNickname
+                                            }
+                                        >
+                                            DreamCatcher
+                                        </div>
+                                        <div className={styles.playerInfoLevel}>
+                                            Уровень 9
+                                        </div>
                                     </div>
                                 </div>
                             </a>
@@ -114,23 +182,44 @@ export const WidgetLastMatches = () => {
             </div>
             <div className={styles.match}>
                 <div className={styles.matchHead}>
-                    <div className={styles.matchHeadDate}>22 Ноя 2021 : 19:30</div>
+                    <div className={styles.matchHeadDate}>
+                        22 Ноя 2021 : 19:30
+                    </div>
                     <div className={styles.matchHeadResults}>
-                        <Icon name={"timer"} size={16} className={styles.matchHeadResultsIcon} />
+                        <Icon
+                            name={"timer"}
+                            size={16}
+                            className={styles.matchHeadResultsIcon}
+                        />
                         <span>39 Мин</span>
                         <span>—</span>
-                        <div className={styles.matchHeadResultsStatus}>ПОБЕДА</div>
+                        <div className={styles.matchHeadResultsStatus}>
+                            ПОБЕДА
+                        </div>
                     </div>
                 </div>
                 <div className={styles.matchBody}>
                     <div className={styles.matchBodyResult}>
                         <Link href="#" passHref={true}>
                             <a>
-                                <div className={cn(styles.player, styles.playerLeft)}>
+                                <div
+                                    className={cn(
+                                        styles.player,
+                                        styles.playerLeft
+                                    )}
+                                >
                                     <Avatar level={0} />
                                     <div className={styles.playerInfo}>
-                                        <div className={styles.playerInfoNickname}>KOCMOHABT</div>
-                                        <div className={styles.playerInfoLevel}>Уровень 12</div>
+                                        <div
+                                            className={
+                                                styles.playerInfoNickname
+                                            }
+                                        >
+                                            KOCMOHABT
+                                        </div>
+                                        <div className={styles.playerInfoLevel}>
+                                            Уровень 12
+                                        </div>
                                     </div>
                                 </div>
                             </a>
@@ -138,11 +227,24 @@ export const WidgetLastMatches = () => {
                         <div className={styles.matchScore}>1:0</div>
                         <Link href="#" passHref={true}>
                             <a>
-                                <div className={cn(styles.player, styles.playerRight)}>
+                                <div
+                                    className={cn(
+                                        styles.player,
+                                        styles.playerRight
+                                    )}
+                                >
                                     <Avatar level={0} />
                                     <div className={styles.playerInfo}>
-                                        <div className={styles.playerInfoNickname}>DreamCatcher</div>
-                                        <div className={styles.playerInfoLevel}>Уровень 9</div>
+                                        <div
+                                            className={
+                                                styles.playerInfoNickname
+                                            }
+                                        >
+                                            DreamCatcher
+                                        </div>
+                                        <div className={styles.playerInfoLevel}>
+                                            Уровень 9
+                                        </div>
                                     </div>
                                 </div>
                             </a>
@@ -165,5 +267,5 @@ export const WidgetLastMatches = () => {
                 </div>
             </div>
         </Widget>
-    )
-}
+    );
+};

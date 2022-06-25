@@ -8,7 +8,7 @@ const Home = () => {
             <Slider />
             <NewsList />
         </Layout>
-    )
-}
+    );
+};
 
 export default Home;

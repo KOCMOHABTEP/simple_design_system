@@ -1,7 +1,13 @@
 import styles from "./Button.module.css";
 
-export default function Button(props) {
+interface ButtonProps {
+    text: string;
+}
+
+export default function Button({ text }: ButtonProps) {
     return (
-        <button className={styles.button}>{props?.text}</button>
-    )
+        <button type="button" className={styles.button}>
+            {text}
+        </button>
+    );
 }
