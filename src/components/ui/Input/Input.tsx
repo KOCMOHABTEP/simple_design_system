@@ -1,29 +1,89 @@
 import styles from './Input.module.css'
 import cn from "classnames";
+import Icon from "@components/ui/Icon/Icon";
+import {ICON_NAME} from "@components/ui/Icon/Icon.library";
+import {ChangeEvent, useState} from "react";
 
 interface InputProps {
-    value: string
-    onChange: any
+    value: string;
+    onChange: (event: ChangeEvent<HTMLInputElement>) => void;
+    onFocus?: () => void;
+    onBlur?: () => void;
+    icon?: ICON_NAME;
+    hint?: string;
+    disabled?: boolean;
+    required?: boolean;
+    error?: {
+        valid: boolean;
+        message: string;
+    }
 }
 
 const Input = (props: InputProps) => {
 
-    const {value, onChange} =props;
+    const [isFocused, setIsFocused] = useState(false);
+    const {value, required, onChange, hint, error, disabled} = props;
+
+    const handleFocus = () => {
+        setIsFocused(true);
+    }
+
+    const handleBlur = () => {
+        setIsFocused(false);
+    }
+
+    const placeholderIsModified = isFocused || value.length;
 
     const placeholderClassName = cn(
         [
             styles.inputPlaceholder,
-            value.length && styles.inputPlaceholderModified
+            placeholderIsModified && styles.inputPlaceholderModified
         ]
     )
 
     return (
-        <div className={styles.inputWrapper}>
-            <div className={placeholderClassName}>
-                Номер договора
+        <label className={styles.inputLabel}>
+            {
+                hint && (
+                    <div className={styles.inputHint}>
+                        <Icon name="hint" size={16} className={styles.inputHintIcon} />
+                        <div className={styles.inputHintMessage}>
+                            {hint}
+                        </div>
+                    </div>
+                )
+            }
+            <div className={styles.inputContainer}>
+                <div className={placeholderClassName}>
+                    { required && <span className={styles.inputPlaceholderRequired}>* </span> }
+                    Номер договора
+                </div>
+                <input
+                    className={cn(styles.input, {
+                        [styles.inputDisabled]: disabled,
+                        [styles.inputError]: error
+                    })}
+                    type="text"
+                    value={value}
+                    required={required}
+                    disabled={disabled}
+                    onChange={(event) => onChange(event)}
+                    onFocus={handleFocus}
+                    onBlur={handleBlur}
+                />
             </div>
-            <input className={styles.input} type="text" value={value} onChange={onChange}/>
-        </div>
+            {
+                error && (
+                    <div className={styles.inputErrorContainer}>
+                        <Icon name="error" size={16} className={styles.inputErrorContainerIcon} />
+                        <div className={styles.inputErrorContainerMessage}>
+                            {error?.message}
+                        </div>
+                    </div>
+                )
+            }
+
+        </label>
     )
 }
 

@@ -3,9 +3,11 @@ import IconArrowRight from "./icons/arrow_right.svg";
 import IconArrowDown from "./icons/arrow_down.svg";
 import IconArrowLeft from "./icons/arrow_left.svg";
 import IconChat from "./icons/chat.svg";
+import IconError from "./icons/error.svg";
 import IconFriends from "./icons/friends.svg";
 import IconGameBlackOps from "./icons/game-blackops.svg";
 import IconGroups from "./icons/groups.svg";
+import IconHint from "./icons/hint.svg";
 import IconHome from "./icons/home.svg";
 import IconLike from "./icons/like.svg";
 import IconMatches from "./icons/matches.svg";
@@ -26,9 +28,11 @@ export const ICON_LIBRARY = {
     "arrow_down": (props: any) => <IconArrowDown {...props} />,
     "arrow_left": (props: any) => <IconArrowLeft {...props} />,
     "comments": (props: any) => <IconChat {...props} />,
+    "error": (props: any) => <IconError {...props} />,
     "friends": (props: any) => <IconFriends {...props} />,
     "game-blackops": (props: any) => <IconGameBlackOps {...props} />,
     "groups": (props: any) => <IconGroups {...props} />,
+    "hint": (props: any) => <IconHint {...props} />,
     "home": (props: any) => <IconHome {...props} />,
     "like": (props: any) => <IconLike {...props} />,
     "matches": (props: any) => <IconMatches {...props} />,
