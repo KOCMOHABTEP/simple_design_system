@@ -43,8 +43,9 @@
     "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-sonarjs": "^0.12.0",
+    "postcss": "^8.4.14",
     "postcss-flexbugs-fixes": "^5.0.2",
-    "postcss-preset-env": "^6.7.0",
+    "postcss-preset-env": "^7.7.2",
     "prettier": "^2.5.1",
     "typescript": "^4.2.3"
   }
