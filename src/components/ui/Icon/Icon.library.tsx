@@ -28,7 +28,7 @@ export const ICON_LIBRARY = {
     comments: props => <IconChat {...props} />,
     error: props => <IconError {...props} />,
     friends: props => <IconFriends {...props} />,
-    "game-blackops": props => <IconGameBlackOps {...props} />,
+    game_bo: props => <IconGameBlackOps {...props} />,
     groups: props => <IconGroups {...props} />,
     hint: props => <IconHint {...props} />,
     home: props => <IconHome {...props} />,
@@ -40,7 +40,7 @@ export const ICON_LIBRARY = {
     streams: props => <IconStreams {...props} />,
     team: props => <IconTeam {...props} />,
     views: props => <IconViews {...props} />,
-    "social-steam": props => <IconSteam {...props} />,
+    social_steam: props => <IconSteam {...props} />,
     timer: props => <IconTimer {...props} />,
 };
 

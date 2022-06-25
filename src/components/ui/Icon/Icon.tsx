@@ -14,7 +14,7 @@ const Icon = ({ name, size = 24, className }: IconProps) => {
         className: cn(styles.icon, className),
     };
 
-    const resultComponent = ICON_LIBRARY[name]?.(props);
+    const resultComponent = ICON_LIBRARY[name.toString()]?.(props);
 
     if (!resultComponent) return null;
 

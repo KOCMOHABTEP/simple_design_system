@@ -33,7 +33,7 @@ const ProfileUserBanner = () => {
                                             }
                                         >
                                             <Icon
-                                                name="social-steam"
+                                                name="social_steam"
                                                 size={24}
                                             />
                                         </div>

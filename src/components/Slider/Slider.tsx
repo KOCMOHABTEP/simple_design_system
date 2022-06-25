@@ -9,7 +9,7 @@ const Slider = () => {
         {
             title: "Что такое Call of Duty: Online",
             game: "Call of Duty: Black Ops",
-            icon: "game-blackops",
+            icon: "game_bo",
             description:
                 "Небольшая статья о малоизвестной части Call Of Duty с большим потенциалом",
             image: "/img/slider-image_1.jpg",
@@ -18,7 +18,7 @@ const Slider = () => {
         {
             title: "Лучшие эмблемы ноября в Black Ops III",
             game: "Call of Duty: Black Ops",
-            icon: "game-blackops",
+            icon: "game_bo",
             description:
                 "В первом же месяце, после выхода Black Ops III, было создано очень много интересных эмблем на разную тематику. Даже трудно поверить в то, что они были созданы без Фотошопа. Предлагаем взглянуть на ТОП-10 эмблемок месяца.",
             image: "/img/slider-image_2.jpg",
