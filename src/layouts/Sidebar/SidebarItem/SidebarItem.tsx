@@ -1,11 +1,12 @@
 import Icon from "@components/Icon/Icon";
 import ActiveLink from "@components/ActiveLink/ActiveLink";
+import { ICON_NAME } from "@components/Icon/Icon.library";
 import styles from "./SidebarItem.module.css";
 
 interface SidebarItemProps {
     title: string;
     href: string;
-    icon: string;
+    icon: ICON_NAME;
     props?: {
         exact?: boolean;
         passHref?: boolean;

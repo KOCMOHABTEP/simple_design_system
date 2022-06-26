@@ -3,51 +3,6 @@ import Logo from "@public/aodzone_logo.svg";
 import styles from "./Sidebar.module.css";
 
 export const Sidebar = () => {
-    const sidebarRoutesItems = [
-        {
-            title: "Главная",
-            href: "/",
-            icon: "home",
-            props: { exact: true, passHref: true },
-        },
-        {
-            title: "Новости",
-            href: "/news",
-            icon: "news",
-            props: { passHref: true },
-        },
-        {
-            title: "Команда",
-            href: "/team",
-            icon: "team",
-            props: { passHref: true },
-        },
-        {
-            title: "Матчи",
-            href: "/matches",
-            icon: "matches",
-            props: { passHref: true },
-        },
-        {
-            title: "Стримы",
-            href: "/streams",
-            icon: "streams",
-            props: { passHref: true },
-        },
-        {
-            title: "Группы",
-            href: "/groups",
-            icon: "groups",
-            props: { passHref: true },
-        },
-        {
-            title: "Медиа",
-            href: "/media",
-            icon: "media",
-            props: { passHref: true },
-        },
-    ];
-
     return (
         <div className={styles.sidebar}>
             <div className={styles.logo}>
@@ -56,12 +11,62 @@ export const Sidebar = () => {
                 </div>
             </div>
             <ul className={styles.sidebarList}>
-                {sidebarRoutesItems.map((items, index) => (
-                    // eslint-disable-next-line react/no-array-index-key
-                    <li key={index}>
-                        <SidebarItem {...items} />
-                    </li>
-                ))}
+                <li className={styles.sidebarListItem}>
+                    <SidebarItem
+                        title="Главная"
+                        href="/"
+                        icon="home"
+                        props={{ exact: true, passHref: true }}
+                    />
+                </li>
+                <li className={styles.sidebarListItem}>
+                    <SidebarItem
+                        title="Новости"
+                        href="/news"
+                        icon="news"
+                        props={{ passHref: true }}
+                    />
+                </li>
+                <li className={styles.sidebarListItem}>
+                    <SidebarItem
+                        title="Команда"
+                        href="/team"
+                        icon="team"
+                        props={{ passHref: true }}
+                    />
+                </li>
+                <li className={styles.sidebarListItem}>
+                    <SidebarItem
+                        title="Матчи"
+                        href="/matches"
+                        icon="matches"
+                        props={{ passHref: true }}
+                    />
+                </li>
+                <li className={styles.sidebarListItem}>
+                    <SidebarItem
+                        title="Стримы"
+                        href="/streams"
+                        icon="streams"
+                        props={{ passHref: true }}
+                    />
+                </li>
+                <li className={styles.sidebarListItem}>
+                    <SidebarItem
+                        title="Группы"
+                        href="/groups"
+                        icon="groups"
+                        props={{ passHref: true }}
+                    />
+                </li>
+                <li className={styles.sidebarListItem}>
+                    <SidebarItem
+                        title="Медиа"
+                        href="/media"
+                        icon="media"
+                        props={{ passHref: true }}
+                    />
+                </li>
             </ul>
         </div>
     );

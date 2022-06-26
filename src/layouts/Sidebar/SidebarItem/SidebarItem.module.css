@@ -1,7 +1,9 @@
 .sidebarItem {
     color: var(--color-white);
-    height: 50px;
-    padding: 15px 30px 15px 30px;
+    padding: var(--spacing-2) var(--spacing-2);
+    border: solid 1px transparent;
+    border-radius: var(--radius);
+    overflow: hidden;
     cursor: pointer;
     opacity: 0.5;
     display: flex;
@@ -16,6 +18,7 @@
 
 .sidebarItem.sidebarItemActive {
     color: var(--color-green);
+    border: solid 1px var(--color-border);
     background: var(--color-background-lighter);
     opacity: 1;
 }
