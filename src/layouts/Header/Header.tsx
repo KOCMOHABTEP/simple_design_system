@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Avatar from "@components/Avatar/Avatar";
 import Icon from "@components/Icon/Icon";
+import UserCard from "@components/UserCard/UserCard";
 import styles from "./Header.module.css";
 
 export const Header = () => {
@@ -27,11 +28,7 @@ export const Header = () => {
                     </a>
                 </div>
 
-                <Link href="/profile" passHref>
-                    <a>
-                        <Avatar level={34} />
-                    </a>
-                </Link>
+                <UserCard />
             </div>
         </div>
     );

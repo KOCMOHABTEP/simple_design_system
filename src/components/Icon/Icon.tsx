@@ -3,7 +3,7 @@ import { ICON_LIBRARY, ICON_NAME } from "@components/Icon/Icon.library";
 import styles from "./Icon.module.css";
 
 interface IconProps {
-    name: ICON_NAME | string;
+    name: ICON_NAME;
     size?: number;
     className?: string;
 }

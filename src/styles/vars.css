@@ -1,10 +1,16 @@
 :root {
     /* NEW UI */
-    --ui-dark: #21212E;
-    --field-disabled: #3C3C54;
 
-    /* CUSTOM */
-    --color-primary: #2277bc;
+    --color-bg: #21212E;
+    --color-bg-light: #3C3C54;
+    --color-bg-dark: #1A1925;
+
+
+
+
+    --ui-dark: #21212E;
+
+    --field-disabled: #3C3C54;
     
     /* COLORS */
     --color-background: #19191e;
@@ -66,6 +72,18 @@
     --spacing-neg-12: -96px;
 
     /* TYPOGRAPHY */
+
+    --font-12: 12px;
+    --font-14: 14px;
+    --font-16: 16px;
+    --font-20: 20px;
+    --font-24: 24px;
+    --font-32: 32px;
+    --font-48: 48px;
+    --font-64: 64px;
+    --font-80: 80px;
+
+    /* TODO: Refactor and delete */
     --font-size-base: 16px;
     --font-size-sm: 12px;
     --font-size-md: 14px;
@@ -92,8 +110,8 @@
     --p-mb: var(--spacing-2);
 
     /* BORDERS */
+    --radius: 6px;
     --radius-sm: 2px;
-    --radius: 4px;
     --radius-md: 6px;
     --radius-lg: 10px;
     --border: 1px solid var(--color-border);

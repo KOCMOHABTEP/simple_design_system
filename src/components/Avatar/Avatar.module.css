@@ -5,7 +5,6 @@
 .avatarLarge .avatarImage {
     width: 180px;
     height: 180px;
-    border: solid 6px var(--color-green);
 }
 
 .avatarLarge .avatarLevel {
@@ -35,10 +34,9 @@
 .avatarImage {
     height: 50px;
     width: 50px;
-    border-radius: 50%;
+    border-radius: var(--radius);
     overflow: hidden;
     position: relative;
-    border: solid 2px var(--color-green);
     background: var(--color-background-lighter);
     box-shadow: var(--box-shadow);
     transition: border 0.3s ease;
