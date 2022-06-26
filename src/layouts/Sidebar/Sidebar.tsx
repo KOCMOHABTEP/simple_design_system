@@ -1,6 +1,6 @@
 import { SidebarItem } from "@layouts/Sidebar/SidebarItem/SidebarItem";
+import Logo from "@public/aodzone_logo.svg";
 import styles from "./Sidebar.module.css";
-import Logo from "../../../public/aodzone_logo.svg";
 
 export const Sidebar = () => {
     const sidebarRoutesItems = [
@@ -52,7 +52,7 @@ export const Sidebar = () => {
         <div className={styles.sidebar}>
             <div className={styles.logo}>
                 <div className={styles.logoInner}>
-                    <Logo className={styles.logoInnerSvg} />
+                    <Logo />
                 </div>
             </div>
             <ul className={styles.sidebarList}>
