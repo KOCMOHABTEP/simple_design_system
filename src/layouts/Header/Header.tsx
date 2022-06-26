@@ -1,5 +1,3 @@
-import Link from "next/link";
-import Avatar from "@components/Avatar/Avatar";
 import Icon from "@components/Icon/Icon";
 import UserCard from "@components/UserCard/UserCard";
 import styles from "./Header.module.css";

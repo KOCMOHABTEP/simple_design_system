@@ -18,7 +18,7 @@ const Avatar = ({
                 [styles.avatarLarge]: size === "large",
             })}
         >
-            {level && <div className={styles.level}>{level}</div>}
+            {level ? <div className={styles.level}>{level}</div> : null}
             <div className={styles.image}>
                 <img src={image} alt="avatar" />
             </div>

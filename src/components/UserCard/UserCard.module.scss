@@ -1,4 +1,8 @@
 .component {
+    position: relative;
+}
+
+.card {
     display: flex;
     align-items: center;
 }

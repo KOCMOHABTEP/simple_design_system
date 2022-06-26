@@ -1,9 +1,12 @@
 :root {
     /* NEW UI */
 
-    --color-bg: #21212E;
+    --color-bg: #20212b;
     --color-bg-light: #3C3C54;
-    --color-bg-dark: #1A1925;
+    --color-bg-dark: #19191e;
+
+    --color-online: #9EE800;
+    --color-offline: #5C6478;
 
 
 

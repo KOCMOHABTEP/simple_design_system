@@ -10,10 +10,12 @@ import IconGroups from "./icons/groups.svg";
 import IconHint from "./icons/hint.svg";
 import IconHome from "./icons/home.svg";
 import IconLike from "./icons/like.svg";
+import IconLogout from "./icons/logout.svg";
 import IconMatches from "./icons/matches.svg";
 import IconMedia from "./icons/media.svg";
 import IconNews from "./icons/news.svg";
 import IconNotification from "./icons/notification.svg";
+import IconProfile from "./icons/profile.svg";
 import IconStreams from "./icons/streams.svg";
 import IconTeam from "./icons/team.svg";
 import IconViews from "./icons/views.svg";
@@ -33,10 +35,12 @@ export const ICON_LIBRARY = {
     hint: IconHint,
     home: IconHome,
     like: IconLike,
+    logout: IconLogout,
     matches: IconMatches,
     media: IconMedia,
     news: IconNews,
     notification: IconNotification,
+    profile: IconProfile,
     streams: IconStreams,
     team: IconTeam,
     views: IconViews,
