@@ -1,0 +1,54 @@
+.avatar {
+    position: relative;
+
+    .level {
+        font-size: var(--font-size-sm);
+        font-weight: bold;
+        color: var(--color-background);
+        text-align: center;
+        line-height: 24px;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        background: var(--color-green);
+        box-shadow: var(--box-shadow);
+        position: absolute;
+        left: -8px;
+        bottom: 0;
+        z-index: 10;
+    }
+
+    .image {
+        height: 48px;
+        width: 48px;
+        border-radius: var(--radius);
+        overflow: hidden;
+        position: relative;
+        background: var(--color-background-lighter);
+        box-shadow: var(--box-shadow);
+        transition: border 0.3s ease;
+
+        img {
+            width: 100%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+}
+
+.avatarLarge {
+
+    .image {
+        width: 180px;
+        height: 180px;
+    }
+
+    .level {
+        font-size: var(--font-20);
+        line-height: 48px;
+        width: 48px;
+        height: 48px;
+    }
+}

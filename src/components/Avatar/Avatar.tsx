@@ -1,5 +1,5 @@
 import cn from "classnames";
-import styles from "./Avatar.module.css";
+import styles from "./Avatar.module.scss";
 
 interface AvatarProps {
     level?: number;
@@ -12,14 +12,14 @@ const Avatar = ({
     size,
     image = "/img/avatar_invader.jpg",
 }: AvatarProps) => {
-    const avatarClassName = cn(styles.avatar, {
-        [styles.avatarLarge]: size === "large",
-    });
-
     return (
-        <div className={avatarClassName}>
-            {level && <div className={styles.avatarLevel}>{level}</div>}
-            <div className={styles.avatarImage}>
+        <div
+            className={cn(styles.avatar, {
+                [styles.avatarLarge]: size === "large",
+            })}
+        >
+            {level && <div className={styles.level}>{level}</div>}
+            <div className={styles.image}>
                 <img src={image} alt="avatar" />
             </div>
         </div>

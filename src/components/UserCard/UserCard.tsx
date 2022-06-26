@@ -1,21 +1,21 @@
 import Avatar from "@components/Avatar/Avatar";
 import Icon from "@components/Icon/Icon";
 import { useState } from "react";
-import styles from "./UserCard.module.css";
+import styles from "./UserCard.module.scss";
 
 const UserCard = () => {
     const [userSettingsIsOpened, setUserSettingsIsOpened] = useState(false);
 
     return (
-        <div className={styles.user}>
-            <div className={styles.userAvatar}>
+        <div className={styles.component}>
+            <div className={styles.avatar}>
                 <Avatar />
             </div>
-            <div className={styles.userContent}>
+            <div className={styles.content}>
                 <div className={styles.name}>KOCMOHABT</div>
                 <div className={styles.level}>Уровень 32</div>
             </div>
-            <div className={styles.userControl}>
+            <div className={styles.control}>
                 <div
                     className={styles.button}
                     onClick={() =>
