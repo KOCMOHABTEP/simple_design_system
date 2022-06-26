@@ -31,7 +31,7 @@
  }
 
 .sidebarItem.sidebarItemActive svg {
-    fill: var(--color-green);
+    color: var(--color-green);
 }
 
 .sidebarItemContainer {

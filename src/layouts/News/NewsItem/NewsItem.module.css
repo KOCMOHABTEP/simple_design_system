@@ -59,6 +59,6 @@
 }
 
 .newsItemStatsControlIcon {
-    fill: var(--color-grey);
+    color: var(--color-grey);
     margin-right: var(--spacing-1);
 }

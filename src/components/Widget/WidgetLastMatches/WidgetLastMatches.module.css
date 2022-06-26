@@ -30,7 +30,7 @@
 }
 
 .matchHeadResultsIcon {
-    fill: var(--color-grey);
+    color: var(--color-grey);
 }
 
 .matchHeadResultsStatus {
