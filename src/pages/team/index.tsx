@@ -1,7 +1,7 @@
 import Layout from "@layouts/Layout/Layout";
 import ProfileUserBanner from "@layouts/Profile/ProfileUserBanner/ProfileUserBanner";
-import { Widget } from "@components/Widget/Widget";
-import { WidgetLastMatches } from "@components/Widget/WidgetLastMatches/WidgetLastMatches";
+import { Widget } from "@features/Widget/Widget";
+import { WidgetLastMatches } from "@features/Widget/WidgetLastMatches/WidgetLastMatches";
 import TeamBanner from "@layouts/Team/TeamBanner/TeamBanner";
 
 const Team = () => {

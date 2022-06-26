@@ -1,7 +1,7 @@
-import styles from "@components/Slider/SliderItem/SliderItem.module.css";
-import Icon from "@components/ui/Icon/Icon";
-import Button from "@components/ui/Button/Button";
+import Icon from "@components/Icon/Icon";
+import Button from "@components/Button/Button";
 import cn from "classnames";
+import styles from "./SliderItem.module.css";
 
 interface ISliderItem {
     title: string;

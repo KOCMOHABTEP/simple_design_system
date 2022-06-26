@@ -1,5 +1,5 @@
-import Icon from "@components/ui/Icon/Icon";
-import ActiveLink from "@components/ui/ActiveLink/ActiveLink";
+import Icon from "@components/Icon/Icon";
+import ActiveLink from "@components/ActiveLink/ActiveLink";
 import styles from "./SidebarItem.module.css";
 
 interface SidebarItemProps {

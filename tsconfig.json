@@ -8,6 +8,9 @@
       "@layouts/*": [
         "src/layouts/*"
       ],
+      "@features/*": [
+        "src/features/*"
+      ],
       "@pages/*": [
         "src/pages/*"
       ],

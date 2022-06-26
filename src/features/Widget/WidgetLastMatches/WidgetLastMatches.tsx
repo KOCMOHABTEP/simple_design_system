@@ -1,8 +1,8 @@
-import { Widget } from "@components/Widget/Widget";
 import cn from "classnames";
-import Icon from "@components/ui/Icon/Icon";
-import Avatar from "@components/ui/Avatar/Avatar";
+import Icon from "@components/Icon/Icon";
+import Avatar from "@components/Avatar/Avatar";
 import Link from "next/link";
+import { Widget } from "../Widget";
 import styles from "./WidgetLastMatches.module.css";
 
 export const WidgetLastMatches = () => {

@@ -1,6 +1,6 @@
 import Link from "next/link";
-import Avatar from "@components/ui/Avatar/Avatar";
-import Icon from "@components/ui/Icon/Icon";
+import Avatar from "@components/Avatar/Avatar";
+import Icon from "@components/Icon/Icon";
 import styles from "./Header.module.css";
 
 export const Header = () => {
