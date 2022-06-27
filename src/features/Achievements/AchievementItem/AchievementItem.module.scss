@@ -1,0 +1,19 @@
+.component {
+  flex: 1;
+  display: flex;
+  color: #ffff;
+
+  .icon{
+    margin-right: var(--spacing-2);
+  }
+
+  .stats{
+    font-size: var(--font-24);
+    font-weight: bold;
+  }
+
+  .description{
+    color: var(--color-bg-light);
+    font-weight: bold;
+  }
+}

@@ -10,7 +10,7 @@ const ProfileUserBanner = () => {
                 <div className={styles.bannerBodyImage}>
                     <img
                         className={styles.bannerBodyImageImg}
-                        src="/img/wallpaper-space.jpg"
+                        src="/img/space.jpg"
                     />
                 </div>
                 <div className={styles.bannerBodyUser}>
