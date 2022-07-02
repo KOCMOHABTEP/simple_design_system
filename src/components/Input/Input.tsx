@@ -7,6 +7,7 @@ import styles from "./Input.module.scss";
 interface InputProps {
     name: string;
     value: string;
+    placeholder: string;
     onChange: (event: ChangeEvent<HTMLInputElement>) => void;
     onFocus?: () => void;
     onBlur?: () => void;
@@ -22,7 +23,16 @@ interface InputProps {
 
 const Input = (props: InputProps) => {
     const [isFocused, setIsFocused] = useState(false);
-    const { name, value, required, onChange, hint, error, disabled } = props;
+    const {
+        name,
+        value,
+        placeholder,
+        required,
+        onChange,
+        hint,
+        error,
+        disabled,
+    } = props;
 
     const handleFocus = () => {
         setIsFocused(true);
@@ -34,57 +44,46 @@ const Input = (props: InputProps) => {
 
     const placeholderIsModified = isFocused || value.length;
 
-    const placeholderClassName = cn([
-        styles.inputPlaceholder,
-        placeholderIsModified && styles.inputPlaceholderModified,
-    ]);
+    console.log(styles);
 
     return (
-        <label className={styles.inputLabel} htmlFor={name}>
+        <label className={styles.label} htmlFor={name}>
             {hint && (
-                <div className={styles.inputHint}>
-                    <Icon
-                        name="hint"
-                        size={16}
-                        className={styles.inputHintIcon}
-                    />
-                    <div className={styles.inputHintMessage}>{hint}</div>
+                <div className={styles.hint}>
+                    <Icon name="hint" size={16} className={styles.hintIcon} />
+                    <div className={styles.hintMessage}>{hint}</div>
                 </div>
             )}
-            <div className={styles.inputContainer}>
-                <div className={placeholderClassName}>
-                    {required && (
-                        <span className={styles.inputPlaceholderRequired}>
-                            *{" "}
-                        </span>
-                    )}
-                    Номер договора
-                </div>
-                <input
-                    className={cn(styles.input, {
-                        [styles.inputDisabled]: disabled,
-                        [styles.inputError]: error,
+            {placeholder && (
+                <div
+                    className={cn(styles.placeholder, {
+                        [styles.placeholderModified]: placeholderIsModified,
                     })}
-                    type="text"
-                    name={name}
-                    value={value}
-                    required={required}
-                    disabled={disabled}
-                    onChange={event => onChange(event)}
-                    onFocus={handleFocus}
-                    onBlur={handleBlur}
-                />
-            </div>
+                >
+                    {required && (
+                        <span className={styles.placeholderRequired}>* </span>
+                    )}
+                    {placeholder}
+                </div>
+            )}
+            <input
+                className={cn(styles.input, {
+                    [styles.inputDisabled]: disabled,
+                    [styles.inputError]: error,
+                })}
+                type="text"
+                name={name}
+                value={value}
+                required={required}
+                disabled={disabled}
+                onChange={event => onChange(event)}
+                onFocus={handleFocus}
+                onBlur={handleBlur}
+            />
             {error && (
-                <div className={styles.inputErrorContainer}>
-                    <Icon
-                        name="error"
-                        size={16}
-                        className={styles.inputErrorContainerIcon}
-                    />
-                    <div className={styles.inputErrorContainerMessage}>
-                        {error?.message}
-                    </div>
+                <div className={styles.error}>
+                    <Icon name="error" size={16} className={styles.errorIcon} />
+                    <div className={styles.errorMessage}>{error?.message}</div>
                 </div>
             )}
         </label>

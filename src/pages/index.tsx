@@ -13,7 +13,12 @@ const Home = () => {
 
     return (
         <Layout>
-            <Input name="test" value={value} onChange={handleChange} />
+            <Input
+                name="test"
+                placeholder="Тестирование"
+                value={value}
+                onChange={handleChange}
+            />
             {/* <Slider /> */}
             {/* <NewsList /> */}
         </Layout>
