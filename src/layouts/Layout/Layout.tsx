@@ -8,12 +8,16 @@ interface ILayout {
     children: any;
 }
 
-const Layout = ({ title = "AOD Zone", children }: ILayout) => {
+const Layout = ({ title = "SDS", children }: ILayout) => {
     return (
         <>
             <Head>
                 <title>{title}</title>
                 <link rel="icon" href="/favicon.ico" />
+                <link
+                    rel="stylesheet"
+                    href="https://fonts.googleapis.com/css2?family=Montserrat"
+                />
             </Head>
             <div>
                 <Header />

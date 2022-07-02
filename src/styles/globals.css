@@ -1,10 +1,9 @@
 @import "vars.css";
-@import "fonts.css";
 
 html,
 body {
     font-family: var(--font-body);
-    font-size: var(--font-size-base);
+    font-size: var(--font-14);
     color: var(--color-white);
     background: var(--color-background);
 }
@@ -16,19 +15,4 @@ a {
 
 * {
     box-sizing: border-box;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-weight: var(--header-weight);
-    line-height: var(--header-lh);
-}
-
-h1 {
-    font-size: var(--h1-size);
-    letter-spacing: var(--header-ls);
 }

@@ -2,7 +2,7 @@ import cn from "classnames";
 import Icon from "@components/Icon/Icon";
 import { ICON_NAME } from "@components/Icon/Icon.library";
 import { ChangeEvent, useState } from "react";
-import styles from "./Input.module.css";
+import styles from "./Input.module.scss";
 
 interface InputProps {
     name: string;
