@@ -1,4 +1,4 @@
-.label {
+.container {
     position: relative;
     display: flex;
 }
@@ -14,38 +14,41 @@
 }
 
 .hintMessage {
-    font-size: 12px;
+    font-size: var(--font-14);
+    line-height: var(--line-height-14);
     color: var(--color-grey);
 }
 
-.placeholder {
-    font-size: var(--font-14);
+.label {
+    font-size: var(--font-16);
+    line-height: var(--line-height-16);
     color: var(--color-grey);
     position: absolute;
-    top: var(--space-4);
-    left: var(--space-4);
+    top: var(--top-4);
+    left: var(--top-4);
     user-select: none;
     transition: all 0.3s ease;
 }
 
-.placeholderModified {
-    font-size: var(--font-12);
-    top: var(--space-4);
+.labelModified {
+    font-size: var(--font-14);
+    line-height: var(--line-height-14);
+    top: var(--top-2);
 }
 
-.placeholderRequired {
+.labelRequired {
     color: var(--color-red-light);
 }
 
 .input {
-    font-size: 14px;
-    font-family: inherit;
+    font-size: var(--font-16);
+    line-height: var(--line-height-16);
     color: var(--color-text);
     outline: none;
-    width: 100%;
-    height: 48px;
+    width: var(--width-100);
+    height: var(--height-12);
     padding: var(--space-6) var(--space-4) var(--space-2) var(--space-4);
-    border-radius: var(--radius-12);
+    border-radius: var(--radius-5);
     border: solid 1px var(--color-border);
     background-color: var(--color-white);
     transition: all 0.3s ease;
@@ -76,7 +79,7 @@
 }
 
 .errorMessage {
-    font-weight: 100;
-    font-size: 12px;
+    font-size: var(--font-12);
+    line-height: var(--line-height-12);
     color: var(--color-red-light);
 }

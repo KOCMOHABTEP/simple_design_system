@@ -5,20 +5,9 @@ import Input from "@components/Input/Input";
 import { useState } from "react";
 
 const Home = () => {
-    const [value, setValue] = useState("");
-
-    const handleChange = event => {
-        setValue(event.target.value);
-    };
-
     return (
         <Layout>
-            <Input
-                id="test"
-                placeholder="Тестирование"
-                value={value}
-                onChange={handleChange}
-            />
+            <Input id="test" label="Тестирование" />
             {/* <Slider /> */}
             {/* <NewsList /> */}
         </Layout>

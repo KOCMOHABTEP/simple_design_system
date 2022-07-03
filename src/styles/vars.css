@@ -5,13 +5,29 @@
     --color-bg-light: #3C3C54;
     --color-bg-dark: #19191e;
 
-    --color-primary: #7438ff;
+    --color-primary: rgb(116, 56, 255);
+
+    --color-white: #FFFFFF;
+    --color-black: #222222;
 
     --color-text: #222222;
     --color-text-disabled: #333;
 
-    --color-grey: #646464;
+    --color-grey: rgba(51, 51, 51, 1);
+    --color-grey-1: rgba(51, 51, 51, 0.1);
+    --color-grey-2: rgba(51, 51, 51, 0.2);
+    --color-grey-3: rgba(51, 51, 51, 0.3);
+    --color-grey-4: rgba(51, 51, 51, 0.4);
+    --color-grey-5: rgba(51, 51, 51, 0.5);
+    --color-grey-6: rgba(51, 51, 51, 0.6);
+    --color-grey-7: rgba(51, 51, 51, 0.7);
+    --color-grey-8: rgba(51, 51, 51, 0.8);
+    --color-grey-9: rgba(51, 51, 51, 0.9);
 
+    --text-opacity: 1;
+    --bg-opacity: 1;
+
+    --color-border: var(--color-grey-3);
 
 
 
@@ -27,27 +43,23 @@
     --color-background: #19191e;
     --color-background-light: #20212b;
     --color-background-lighter: #2c2d3b;
-    --color-grey: #7a7a99;
-
-    --color-border: #363543;
-    --color-border-light: #414358;
     
     --color-violet: #928FFF;
     --color-green: #23EAA4;
     --color-green-dark: #40809C;
     --color-green-darker: #329B9D;
 
-    --color-red-light: #FF6B69;
-    --color-red: #EB2B00;
-    --color-red-dark: #9E1E00;
+    --color-red-lighter: #f7d4d6;
+    --color-red-light: #ff1a1a;
+    --color-red: #e00;
+    --color-red-dark: #c50000;
 
     /* GRADIENTS */
     --gradient-green: linear-gradient(270deg, #00FBA4 0%, #40809C 100%);
     
     --color-header: #333333;
     --color-link: #8888ee;
-    --color-white: #EEEEF0;
-    --color-black: #222222;
+
 
     /* FONTS */
     --font-body: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -70,6 +82,7 @@
 
     /* BASE UNIT */
     --unit: 4px;
+    --base: 16;
 
     /* NEW WIDTH and HEIGHT */
     --width-1: var(--unit);
@@ -84,6 +97,7 @@
     --width-10: calc(10 * var(--unit));
     --width-11: calc(11 * var(--unit));
     --width-12: calc(12 * var(--unit));
+    --width-100: 100%;
 
     --height-1: var(--unit);
     --height-2: calc(2 * var(--unit));
@@ -97,6 +111,7 @@
     --height-10: calc(10 * var(--unit));
     --height-11: calc(11 * var(--unit));
     --height-12: calc(12 * var(--unit));
+    --height-100: 100%;
 
     /* POSITIONS */
     --top-0: 0;
@@ -171,24 +186,40 @@
     --space-12: calc(12 * var(--unit));
 
     /* TYPOGRAPHY */
-    --font-12: 12px;
-    --font-14: 14px;
-    --font-16: 16px;
-    --font-20: 20px;
-    --font-24: 24px;
-    --font-32: 32px;
-    --font-48: 48px;
-    --font-64: 64px;
-    --font-80: 80px;
+    --font-12: calc((12 / var(--base)) * 1rem);
+    --font-14: calc((14 / var(--base)) * 1rem);
+    --font-16: 1rem;
+    --font-18: calc((18 / var(--base)) * 1rem);
+    --font-20: calc((20 / var(--base)) * 1rem);
+    --font-24: calc((24 / var(--base)) * 1rem);
+    --font-32: calc((32 / var(--base)) * 1rem);
+    --font-48: calc((48 / var(--base)) * 1rem);
+    --font-56: calc((56 / var(--base)) * 1rem);
+    --font-64: calc((64 / var(--base)) * 1rem);
+    --font-72: calc((72 / var(--base)) * 1rem);
+    --font-80: calc((80 / var(--base)) * 1rem);
 
-    /* BORDERS */
-    --radius-4: 4px;
-    --radius-6: 6px;
-    --radius-12: 12px;
+    --line-height-12: calc((14 / var(--base)) * 1rem);
+    --line-height-14: calc((16 / var(--base)) * 1rem);
+    --line-height-16: calc((18 / var(--base)) * 1rem);
+    --line-height-20: calc((24 / var(--base)) * 1rem);
+    --line-height-24: calc((28 / var(--base)) * 1rem);
 
-    --radius: 4px;
-    --border: 1px solid var(--color-border);
-    --border-light: 1px solid var(--color-border-light);
+
+    /* RADIUS */
+    --radius-unit: 2px;
+    --radius-0: 0;
+    --radius-1: var(--radius-unit);
+    --radius-2: calc(2 * var(--radius-unit));
+    --radius-3: calc(3 * var(--radius-unit));
+    --radius-4: calc(4 * var(--radius-unit));
+    --radius-5: calc(5 * var(--radius-unit));
+    --radius-6: calc(6 * var(--radius-unit));
+    --radius-7: calc(7 * var(--radius-unit));
+    --radius-8: calc(8 * var(--radius-unit));
+    --radius-9: calc(9 * var(--radius-unit));
+    --radius-10: calc(10 * var(--radius-unit));
+    --radius-full: 9999px;
 
     /* SHADOWS */
     --box-shadow-green: 0 0 0 2px rgba(35, 234, 164, 0.5);
