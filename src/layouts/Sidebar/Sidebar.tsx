@@ -1,17 +1,15 @@
 import { SidebarItem } from "@layouts/Sidebar/SidebarItem/SidebarItem";
 import Logo from "@public/aodzone_logo.svg";
-import styles from "./Sidebar.module.css";
+import styles from "./Sidebar.module.scss";
 
 export const Sidebar = () => {
     return (
         <div className={styles.sidebar}>
             <div className={styles.logo}>
-                <div className={styles.logoInner}>
-                    <Logo />
-                </div>
+                <div className={styles.logoInner}>Test</div>
             </div>
-            <ul className={styles.sidebarList}>
-                <li className={styles.sidebarListItem}>
+            <ul className={styles.list}>
+                <li className={styles.item}>
                     <SidebarItem
                         title="Главная"
                         href="/"
@@ -19,7 +17,7 @@ export const Sidebar = () => {
                         props={{ exact: true, passHref: true }}
                     />
                 </li>
-                <li className={styles.sidebarListItem}>
+                <li className={styles.item}>
                     <SidebarItem
                         title="Новости"
                         href="/news"
@@ -27,7 +25,7 @@ export const Sidebar = () => {
                         props={{ passHref: true }}
                     />
                 </li>
-                <li className={styles.sidebarListItem}>
+                <li className={styles.item}>
                     <SidebarItem
                         title="Команда"
                         href="/team"
@@ -35,7 +33,7 @@ export const Sidebar = () => {
                         props={{ passHref: true }}
                     />
                 </li>
-                <li className={styles.sidebarListItem}>
+                <li className={styles.item}>
                     <SidebarItem
                         title="Матчи"
                         href="/matches"
@@ -43,7 +41,7 @@ export const Sidebar = () => {
                         props={{ passHref: true }}
                     />
                 </li>
-                <li className={styles.sidebarListItem}>
+                <li className={styles.item}>
                     <SidebarItem
                         title="Стримы"
                         href="/streams"
@@ -51,7 +49,7 @@ export const Sidebar = () => {
                         props={{ passHref: true }}
                     />
                 </li>
-                <li className={styles.sidebarListItem}>
+                <li className={styles.item}>
                     <SidebarItem
                         title="Группы"
                         href="/groups"
@@ -59,7 +57,7 @@ export const Sidebar = () => {
                         props={{ passHref: true }}
                     />
                 </li>
-                <li className={styles.sidebarListItem}>
+                <li className={styles.item}>
                     <SidebarItem
                         title="Медиа"
                         href="/media"

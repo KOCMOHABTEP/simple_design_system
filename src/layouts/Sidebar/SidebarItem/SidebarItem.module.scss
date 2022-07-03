@@ -1,0 +1,41 @@
+.item {
+    color: var(--color-text);
+    padding: var(--space-4);
+    border-radius: var(--radius-6);
+    overflow: hidden;
+    cursor: pointer;
+    opacity: 0.5;
+    display: flex;
+    position: relative;
+    transition: background 0.3s ease, opacity 0.3s ease;
+
+    &:hover {
+        opacity: 1;
+        background: var(--color-bg-dark);
+    }
+}
+
+.itemActive {
+    border: solid 1px var(--color-border);
+    background: var(--color-bg-dark);
+    opacity: 1;
+
+    &:after {
+
+    }
+}
+
+.itemContainer {
+    display: flex;
+    align-items: center;
+}
+
+.itemIcon {
+    color: var(--color-grey);
+    margin-right: var(--spacing-2);
+}
+
+.itemText {
+    font-size: var(--font-16);
+    line-height: var(--line-height-16);
+}
