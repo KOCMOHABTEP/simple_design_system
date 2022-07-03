@@ -53,7 +53,7 @@
     --font-body: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
 
-    /* SPACING */
+    /* _OLD SPACING */
     --spacing-base: 8px;
     --spacing-1: 8px;
     --spacing-2: 16px;
@@ -68,12 +68,109 @@
     --spacing-11: 88px;
     --spacing-12: 96px;
 
-    --space-8: 8px;
-    --space-16: 16px;
-    --space-24: 24px;
+    /* BASE UNIT */
+    --unit: 4px;
+
+    /* NEW WIDTH and HEIGHT */
+    --width-1: var(--unit);
+    --width-2: calc(2 * var(--unit));
+    --width-3: calc(3 * var(--unit));
+    --width-4: calc(4 * var(--unit));
+    --width-5: calc(5 * var(--unit));
+    --width-6: calc(6 * var(--unit));
+    --width-7: calc(7 * var(--unit));
+    --width-8: calc(8 * var(--unit));
+    --width-9: calc(9 * var(--unit));
+    --width-10: calc(10 * var(--unit));
+    --width-11: calc(11 * var(--unit));
+    --width-12: calc(12 * var(--unit));
+
+    --height-1: var(--unit);
+    --height-2: calc(2 * var(--unit));
+    --height-3: calc(3 * var(--unit));
+    --height-4: calc(4 * var(--unit));
+    --height-5: calc(5 * var(--unit));
+    --height-6: calc(6 * var(--unit));
+    --height-7: calc(7 * var(--unit));
+    --height-8: calc(8 * var(--unit));
+    --height-9: calc(9 * var(--unit));
+    --height-10: calc(10 * var(--unit));
+    --height-11: calc(11 * var(--unit));
+    --height-12: calc(12 * var(--unit));
+
+    /* POSITIONS */
+    --top-0: 0;
+    --top-1: var(--unit);
+    --top-2: calc(2 * var(--unit));
+    --top-3: calc(3 * var(--unit));
+    --top-4: calc(4 * var(--unit));
+    --top-5: calc(5 * var(--unit));
+    --top-6: calc(6 * var(--unit));
+    --top-7: calc(7 * var(--unit));
+    --top-8: calc(8 * var(--unit));
+    --top-9: calc(9 * var(--unit));
+    --top-10: calc(10 * var(--unit));
+    --top-11: calc(11 * var(--unit));
+    --top-12: calc(12 * var(--unit));
+
+    --right-0: 0;
+    --right-1: var(--unit);
+    --right-2: calc(2 * var(--unit));
+    --right-3: calc(3 * var(--unit));
+    --right-4: calc(4 * var(--unit));
+    --right-5: calc(5 * var(--unit));
+    --right-6: calc(6 * var(--unit));
+    --right-7: calc(7 * var(--unit));
+    --right-8: calc(8 * var(--unit));
+    --right-9: calc(9 * var(--unit));
+    --right-10: calc(10 * var(--unit));
+    --right-11: calc(11 * var(--unit));
+    --right-12: calc(12 * var(--unit));
+
+    --left-0: 0;
+    --left-1: var(--unit);
+    --left-2: calc(2 * var(--unit));
+    --left-3: calc(3 * var(--unit));
+    --left-4: calc(4 * var(--unit));
+    --left-5: calc(5 * var(--unit));
+    --left-6: calc(6 * var(--unit));
+    --left-7: calc(7 * var(--unit));
+    --left-8: calc(8 * var(--unit));
+    --left-9: calc(9 * var(--unit));
+    --left-10: calc(10 * var(--unit));
+    --left-11: calc(11 * var(--unit));
+    --left-12: calc(12 * var(--unit));
+
+    --bottom-0: 0;
+    --bottom-1: var(--unit);
+    --bottom-2: calc(2 * var(--unit));
+    --bottom-3: calc(3 * var(--unit));
+    --bottom-4: calc(4 * var(--unit));
+    --bottom-5: calc(5 * var(--unit));
+    --bottom-6: calc(6 * var(--unit));
+    --bottom-7: calc(7 * var(--unit));
+    --bottom-8: calc(8 * var(--unit));
+    --bottom-9: calc(9 * var(--unit));
+    --bottom-10: calc(10 * var(--unit));
+    --bottom-11: calc(11 * var(--unit));
+    --bottom-12: calc(12 * var(--unit));
+
+
+    /* NEW SPACING*/
+    --space-1: var(--unit);
+    --space-2: calc(2 * var(--unit));
+    --space-3: calc(3 * var(--unit));
+    --space-4: calc(4 * var(--unit));
+    --space-5: calc(5 * var(--unit));
+    --space-6: calc(6 * var(--unit));
+    --space-7: calc(7 * var(--unit));
+    --space-8: calc(8 * var(--unit));
+    --space-9: calc(9 * var(--unit));
+    --space-10: calc(10 * var(--unit));
+    --space-11: calc(11 * var(--unit));
+    --space-12: calc(12 * var(--unit));
 
     /* TYPOGRAPHY */
-
     --font-12: 12px;
     --font-14: 14px;
     --font-16: 16px;

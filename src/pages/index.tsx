@@ -14,7 +14,7 @@ const Home = () => {
     return (
         <Layout>
             <Input
-                name="test"
+                id="test"
                 placeholder="Тестирование"
                 value={value}
                 onChange={handleChange}

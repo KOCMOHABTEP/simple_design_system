@@ -4,36 +4,37 @@
 }
 
 .hint {
-    margin-bottom: var(--spacing-1);
+    margin-bottom: var(--space-2);
     display: flex;
+}
 
-    .hintIcon {
-        color: var(--color-grey);
-        margin-right: var(--spacing-1);
-    }
+.hintIcon {
+    color: var(--color-grey);
+    margin-right: var(--space-2);
+}
 
-    .hintMessage {
-        font-size: 12px;
-        color: var(--color-grey);
-    }
+.hintMessage {
+    font-size: 12px;
+    color: var(--color-grey);
 }
 
 .placeholder {
     font-size: var(--font-14);
     color: var(--color-grey);
     position: absolute;
-    top: var(--space-16);
-    left: var(--space-16);
+    top: var(--space-4);
+    left: var(--space-4);
+    user-select: none;
     transition: all 0.3s ease;
+}
 
-    .placeholderModified {
-        font-size: var(--font-12);
-        top: var(--space-16);
-    }
+.placeholderModified {
+    font-size: var(--font-12);
+    top: var(--space-4);
+}
 
-    .placeholderRequired {
-        color: var(--color-red-light);
-    }
+.placeholderRequired {
+    color: var(--color-red-light);
 }
 
 .input {
@@ -42,7 +43,8 @@
     color: var(--color-text);
     outline: none;
     width: 100%;
-    padding: var(--space-24) var(--space-16) var(--space-8) var(--space-16);
+    height: 48px;
+    padding: var(--space-6) var(--space-4) var(--space-2) var(--space-4);
     border-radius: var(--radius-12);
     border: solid 1px var(--color-border);
     background-color: var(--color-white);
@@ -52,30 +54,29 @@
         border: solid 1px var(--color-primary);
         box-shadow: var(--box-shadow-purple);
     }
+}
+.inputDisabled {
+    cursor: not-allowed;
+    background-color: var(--field-disabled);
+}
 
-    .inputDisabled {
-        cursor: not-allowed;
-        background-color: var(--field-disabled);
-    }
-
-    .inputError {
-        border: solid 1px var(--color-red-light);
-        box-shadow: var(--box-shadow-red);
-    }
+.inputError {
+    border: solid 1px var(--color-red-light);
+    box-shadow: var(--box-shadow-red);
 }
 
 .error {
-    margin-top: var(--spacing-1);
+    margin-top: var(--space-2);
     display: flex;
+}
 
-    .errorIcon {
-        color: var(--color-red-light);
-        margin-right: var(--spacing-1);
-    }
+.errorIcon {
+    color: var(--color-red-light);
+    margin-right: var(--space-2);
+}
 
-    .errorMessage {
-        font-weight: 100;
-        font-size: 12px;
-        color: var(--color-red-light);
-    }
+.errorMessage {
+    font-weight: 100;
+    font-size: 12px;
+    color: var(--color-red-light);
 }

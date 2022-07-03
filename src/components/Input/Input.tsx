@@ -5,10 +5,10 @@ import { ChangeEvent, useState } from "react";
 import styles from "./Input.module.scss";
 
 interface InputProps {
-    name: string;
+    id: string;
     value: string;
     placeholder: string;
-    onChange: (event: ChangeEvent<HTMLInputElement>) => void;
+    onChange?: (event: ChangeEvent<HTMLInputElement>) => void;
     onFocus?: () => void;
     onBlur?: () => void;
     icon?: ICON_NAME;
@@ -24,7 +24,7 @@ interface InputProps {
 const Input = (props: InputProps) => {
     const [isFocused, setIsFocused] = useState(false);
     const {
-        name,
+        id,
         value,
         placeholder,
         required,
@@ -44,10 +44,8 @@ const Input = (props: InputProps) => {
 
     const placeholderIsModified = isFocused || value.length;
 
-    console.log(styles);
-
     return (
-        <label className={styles.label} htmlFor={name}>
+        <label className={styles.label} htmlFor={id}>
             {hint && (
                 <div className={styles.hint}>
                     <Icon name="hint" size={16} className={styles.hintIcon} />
@@ -72,11 +70,11 @@ const Input = (props: InputProps) => {
                     [styles.inputError]: error,
                 })}
                 type="text"
-                name={name}
+                name={id}
                 value={value}
                 required={required}
                 disabled={disabled}
-                onChange={event => onChange(event)}
+                onChange={onChange}
                 onFocus={handleFocus}
                 onBlur={handleBlur}
             />
