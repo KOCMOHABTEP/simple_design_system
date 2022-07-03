@@ -7,7 +7,14 @@ import { useState } from "react";
 const Home = () => {
     return (
         <Layout>
-            <Input id="test" label="Тестирование" />
+            <Input id="first" label="Имя" />
+            <Input id="second" label="Фамилия" required={true} />
+            <Input id="second" label="Фамилия" disabled={true} />
+            <Input
+                id="third"
+                label="Отчество"
+                error={{ valid: false, message: "Ошибка валидации" }}
+            />
             {/* <Slider /> */}
             {/* <NewsList /> */}
         </Layout>

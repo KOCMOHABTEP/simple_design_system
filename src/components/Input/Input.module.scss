@@ -1,6 +1,6 @@
 .container {
     position: relative;
-    display: flex;
+    display: block;
 }
 
 .hint {
@@ -27,6 +27,7 @@
     top: var(--top-4);
     left: var(--top-4);
     user-select: none;
+    pointer-events: none;
     transition: all 0.3s ease;
 }
 
@@ -60,7 +61,7 @@
 }
 .inputDisabled {
     cursor: not-allowed;
-    background-color: var(--field-disabled);
+    background-color: var(--color-bg-disabled);
 }
 
 .inputError {
@@ -71,6 +72,7 @@
 .error {
     margin-top: var(--space-2);
     display: flex;
+    align-items: center;
 }
 
 .errorIcon {
@@ -79,7 +81,7 @@
 }
 
 .errorMessage {
-    font-size: var(--font-12);
-    line-height: var(--line-height-12);
+    font-size: var(--font-14);
+    line-height: var(--line-height-14);
     color: var(--color-red-light);
 }

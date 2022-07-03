@@ -40,22 +40,22 @@ const Input = (props: InputProps) => {
     return (
         <label className={styles.container} htmlFor={id}>
             {hint && (
-                <div className={styles.hint}>
+                <span className={styles.hint}>
                     <Icon name="hint" size={16} className={styles.hintIcon} />
                     <div className={styles.hintMessage}>{hint}</div>
-                </div>
+                </span>
             )}
             {label && (
-                <div
+                <span
                     className={cn(styles.label, {
                         [styles.labelModified]: labelModified,
                     })}
                 >
-                    {required && (
-                        <span className={styles.labelRequired}>* </span>
-                    )}
                     {label}
-                </div>
+                    {required && (
+                        <span className={styles.labelRequired}> *</span>
+                    )}
+                </span>
             )}
             <input
                 ref={inputRef}
@@ -73,10 +73,10 @@ const Input = (props: InputProps) => {
                 onBlur={handleBlur}
             />
             {error && (
-                <div className={styles.error}>
+                <span className={styles.error}>
                     <Icon name="error" size={16} className={styles.errorIcon} />
                     <div className={styles.errorMessage}>{error?.message}</div>
-                </div>
+                </span>
             )}
         </label>
     );

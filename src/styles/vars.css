@@ -13,31 +13,30 @@
     --color-text: #222222;
     --color-text-disabled: #333;
 
-    --color-grey: rgba(51, 51, 51, 1);
-    --color-grey-1: rgba(51, 51, 51, 0.1);
-    --color-grey-2: rgba(51, 51, 51, 0.2);
-    --color-grey-3: rgba(51, 51, 51, 0.3);
-    --color-grey-4: rgba(51, 51, 51, 0.4);
-    --color-grey-5: rgba(51, 51, 51, 0.5);
-    --color-grey-6: rgba(51, 51, 51, 0.6);
-    --color-grey-7: rgba(51, 51, 51, 0.7);
-    --color-grey-8: rgba(51, 51, 51, 0.8);
-    --color-grey-9: rgba(51, 51, 51, 0.9);
+    --color-border: var(--color-grey-3);
+    --color-border-disabled: var(--color-grey-2);
+    --color-bg-disabled: var(--color-grey-2);
+
+
+    --color-grey: rgb(123, 132, 156);
+    --color-grey_rgb: 123, 132, 156;
+    --color-grey-1: rgba(var(--color-grey_rgb), 0.1);
+    --color-grey-2: rgba(var(--color-grey_rgb), 0.2);
+    --color-grey-3: rgba(var(--color-grey_rgb), 0.3);
+    --color-grey-4: rgba(var(--color-grey_rgb), 0.4);
+    --color-grey-5: rgba(var(--color-grey_rgb), 0.5);
+    --color-grey-6: rgba(var(--color-grey_rgb), 0.6);
+    --color-grey-7: rgba(var(--color-grey_rgb), 0.7);
+    --color-grey-8: rgba(var(--color-grey_rgb), 0.8);
+    --color-grey-9: rgba(var(--color-grey_rgb), 0.9);
 
     --text-opacity: 1;
     --bg-opacity: 1;
-
-    --color-border: var(--color-grey-3);
 
 
 
 
     --color-online: #9EE800;
-    --color-offline: #5C6478;
-
-    --ui-dark: #21212E;
-
-    --field-disabled: #3C3C54;
     
     /* COLORS */
     --color-background: #19191e;
@@ -188,7 +187,7 @@
     /* TYPOGRAPHY */
     --font-12: calc((12 / var(--base)) * 1rem);
     --font-14: calc((14 / var(--base)) * 1rem);
-    --font-16: 1rem;
+    --font-16: calc((16 / var(--base)) * 1rem);
     --font-18: calc((18 / var(--base)) * 1rem);
     --font-20: calc((20 / var(--base)) * 1rem);
     --font-24: calc((24 / var(--base)) * 1rem);
@@ -224,7 +223,7 @@
     /* SHADOWS */
     --box-shadow-green: 0 0 0 2px rgba(35, 234, 164, 0.5);
     --box-shadow-purple: 0 0 0 2px rgba(116, 56, 265, 0.8);
-    --box-shadow-red: 0 0 0 2px rgba(255, 107, 105, 0.5);
+    --box-shadow-red: 0 0 0 2px rgba(255, 107, 105, 0.8);
     --box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.15);
 
     /* ZINDEX */
