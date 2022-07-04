@@ -2,26 +2,28 @@ import cn from "classnames";
 import styles from "./Avatar.module.scss";
 
 interface AvatarProps {
-    level?: number;
-    size?: "large";
     image?: string;
+    online?: boolean;
+    name?: string;
 }
 
-const Avatar = ({
-    level,
-    size,
-    image = "/img/avatar_invader.jpg",
-}: AvatarProps) => {
-    return (
-        <div
-            className={cn(styles.avatar, {
-                [styles.avatarLarge]: size === "large",
-            })}
-        >
-            {level ? <div className={styles.level}>{level}</div> : null}
-            <div className={styles.image}>
-                <img src={image} alt="avatar" />
+const Avatar = ({ image, name, online }: AvatarProps) => {
+    const AvatarName = () => {
+        const initials = name;
+
+        return (
+            <div className={styles.name}>
+                <div className={styles.nameCharacters}>SD</div>
             </div>
+        );
+    };
+
+    return (
+        <div className={styles.avatar}>
+            {image && (
+                <img className={styles.avatarImage} src={image} alt="avatar" />
+            )}
+            <AvatarName />
         </div>
     );
 };

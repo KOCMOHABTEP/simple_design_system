@@ -1,6 +1,7 @@
 .item {
     color: var(--color-text);
     padding: var(--space-4);
+    border: solid 1px transparent;
     border-radius: var(--radius-6);
     overflow: hidden;
     cursor: pointer;
