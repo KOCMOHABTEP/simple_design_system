@@ -1,8 +1,8 @@
 .header {
     width: 100%;
-    padding: var(--spacing-3) 0;
-    border-bottom: var(--border);
-    background: var(--color-background-light);
+    padding: var(--space-6) 0;
+    border-bottom: solid 1px var(--color-border);
+    background: var(--color-bg);
     box-shadow: var(--box-shadow);
     z-index: var(--zindex-header);
     display: flex;

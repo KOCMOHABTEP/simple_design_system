@@ -1,0 +1,25 @@
+.container {
+    width: 96px;
+    height: var(--height-100);
+    border-right: solid 1px var(--color-border);
+    background: var(--color-bg);
+    position: fixed;
+    top: var(--top-0);
+    left: var(--left-0);
+    z-index: var(--zindex-app-sidebar);
+}
+
+.empty {
+
+    padding: var(--space-6);
+}
+
+.emptyBox {
+    width: var(--width-12);
+    height: var(--height-12);
+}
+
+.inner {
+    padding: var(--space-8) var(--space-6);
+    width: var(--width-12);
+}

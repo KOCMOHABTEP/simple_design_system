@@ -10,7 +10,7 @@ interface IconProps {
 
 const Icon = ({ name, size = 24, className }: IconProps) => {
     const props = {
-        ...(size ? { width: size, height: size } : null),
+        ...(size && { width: size, height: size }),
         className: cn(styles.icon, className),
     };
 
