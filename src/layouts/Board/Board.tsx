@@ -40,6 +40,11 @@ const Board = () => {
                         id="AOD-1"
                         description="Тестирование компонента"
                     />
+                    <BoardCard
+                        id="AOD-2"
+                        description="Небольшое описание чтобы понимать длинну строки внутри компонента"
+                    />
+                    <BoardCard id="AOD-3" description="Доделать систему" />
                 </BoardColumn>
                 <BoardColumn name="В работе" />
                 <BoardColumn name="Выполнено" />

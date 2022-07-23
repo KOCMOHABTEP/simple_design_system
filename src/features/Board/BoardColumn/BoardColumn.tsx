@@ -19,7 +19,7 @@ const BoardColumn = ({ name, count = 0, children }: BoardColumnProps) => {
                     <div className={styles.headerActionsItem} />
                 </div>
             </div>
-            <div className={styles.content}>{children}</div>
+            <div className={styles.list}>{children}</div>
         </div>
     );
 };

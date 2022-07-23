@@ -5,6 +5,9 @@
     --color-bg-dark: #F3F3F3;
 
     --color-primary: rgb(116, 56, 255);
+    --color-primary-rgb: 116, 56, 255;
+    --color-primary-dark: #3A1C80;
+    --color-primary-light: rgba(var(--color-primary-rgb), 0.9);
 
     --color-white: #FFFFFF;
     --color-black: #222222;
