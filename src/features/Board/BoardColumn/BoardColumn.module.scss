@@ -1,0 +1,16 @@
+.component {
+    flex: 1;
+}
+
+.header {
+    padding: var(--space-4);
+    border-bottom: solid 1px var(--color-border);
+}
+
+.headerName {
+    font-size: var(--font-16);
+}
+
+.content {
+    padding: var(--space-2);
+}

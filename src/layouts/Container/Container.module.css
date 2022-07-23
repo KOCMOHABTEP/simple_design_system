@@ -1,17 +1,16 @@
 .container {
-    max-width: calc(100% - 320px);
+    max-width: calc(100% - 416px);
     width: 100%;
-    padding-top: 100px;
-    margin-left: 320px;
+    padding-top: 96px;
+    margin-left: 416px;
 }
 
 .containerInner {
-    padding-top: 40px;
+    padding-top: var(--space-6);
 }
 
 .containerContent {
-    max-width: 1114px;
     width: 100%;
-    padding: 0 30px;
+    padding: 0 var(--space-6);
     margin: 0 auto;
 }

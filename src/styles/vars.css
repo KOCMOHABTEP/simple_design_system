@@ -92,6 +92,7 @@
     --width-10: calc(10 * var(--unit));
     --width-11: calc(11 * var(--unit));
     --width-12: calc(12 * var(--unit));
+    --width-24: calc(24 * var(--unit)); /* 96px */
     --width-80: calc(80 * var(--unit)); /* 320px */
     --width-100: 100%;
 
@@ -107,6 +108,7 @@
     --height-10: calc(10 * var(--unit));
     --height-11: calc(11 * var(--unit));
     --height-12: calc(12 * var(--unit));
+    --height-24: calc(24 * var(--unit)); /* 96px */
     --height-100: 100%;
 
     /* POSITIONS */

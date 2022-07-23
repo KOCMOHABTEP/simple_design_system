@@ -1,5 +1,11 @@
 @import "vars.css";
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 html,
 body {
     font-family: var(--font-body);
@@ -16,8 +22,4 @@ input, textarea, select {
 a {
     color: var(--color-link);
     text-decoration: none;
-}
-
-* {
-    box-sizing: border-box;
 }
