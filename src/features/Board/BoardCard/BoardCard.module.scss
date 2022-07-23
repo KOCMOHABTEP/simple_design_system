@@ -1,7 +1,14 @@
 .card {
     padding: var(--space-4);
+    cursor: pointer;
     border: solid 1px var(--color-border);
     border-radius: var(--radius-2);
+    background: var(--color-white);
+    transition: all 0.3s ease;
+
+    &:hover {
+        box-shadow: var(--box-shadow);
+    }
 }
 
 .cardDescription {
@@ -9,11 +16,21 @@
 }
 
 .cardFooter {
-    margin-bottom: var(--space-2);
     display: flex;
+    justify-content: space-between;
+}
+
+.cardFooterColumn {
+    display: flex;
+    align-items: center;
     gap: var(--space-2);
 }
 
-.cardFooterType {
+.cardIssueType {
+    display: flex;
+    align-items: center;
+}
 
+.cardIssuePriority {
+    font-weight: bold;
 }

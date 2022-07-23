@@ -4,7 +4,6 @@
     padding: var(--space-6) 0;
     border-bottom: solid 1px var(--color-border);
     background: var(--color-bg);
-    box-shadow: var(--box-shadow);
     z-index: var(--zindex-header);
     display: flex;
     align-items: center;

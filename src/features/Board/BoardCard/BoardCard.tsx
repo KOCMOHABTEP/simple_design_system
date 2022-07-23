@@ -12,12 +12,18 @@ const BoardCard = ({ id, description }: BoardCardProps) => {
         <div className={styles.card}>
             <div className={styles.cardDescription}>{description}</div>
             <div className={styles.cardFooter}>
-                <div className={styles.cardFooterType}>
-                    <Icon name="news" size={16} />
+                <div className={styles.cardFooterColumn}>
+                    <div className={styles.cardIssueType}>
+                        <Icon name="news" size={16} />
+                    </div>
+                    <div className={styles.cardIssuePriority}>Среднее</div>
                 </div>
-                <div className={styles.cardFooterPriority}>Среднее</div>
-                <div className={styles.cardFooterId}>{id}</div>
-                <div className={styles.cardFooterAssignee}>Аватарка</div>
+                <div className={styles.cardFooterColumn}>
+                    <div className={styles.cardFooterId}>{id}</div>
+                    <div className={styles.cardFooterAssignee}>
+                        <Avatar size="xs" />
+                    </div>
+                </div>
             </div>
         </div>
     );

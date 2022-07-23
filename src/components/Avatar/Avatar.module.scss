@@ -7,6 +7,11 @@
     position: relative;
 }
 
+.avatarXS {
+    width: var(--width-6);
+    height: var(--height-6);
+}
+
 .avatarImage {
     width: 100%;
     position: absolute;
@@ -28,4 +33,8 @@
     font-weight: bold;
     line-height: var(--line-height-24);
     color: var(--color-white);
+}
+
+.nameCharactersXS {
+    font-size: var(--font-12);
 }
