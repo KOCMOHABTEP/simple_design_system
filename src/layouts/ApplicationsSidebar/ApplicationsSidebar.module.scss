@@ -1,5 +1,4 @@
 .container {
-    width: 96px;
     height: var(--height-100);
     border-right: solid 1px var(--color-border);
     background: var(--color-bg);
@@ -10,8 +9,8 @@
 }
 
 .empty {
-
     padding: var(--space-6);
+    border-bottom: solid 1px transparent;
 }
 
 .emptyBox {
@@ -21,5 +20,4 @@
 
 .inner {
     padding: var(--space-8) var(--space-6);
-    width: var(--width-12);
 }

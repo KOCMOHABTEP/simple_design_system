@@ -1,6 +1,6 @@
 .component {
-    width: 58px;
-    height: 58px;
+    width: var(--width-12);
+    height: var(--height-12);
     border-radius: var(--radius-5);
     background: var(--color-grey-5);
     margin-bottom: var(--bottom-2);
