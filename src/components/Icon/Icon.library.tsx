@@ -2,6 +2,8 @@ import IconArrowUp from "./icons/arrow_up.svg";
 import IconArrowRight from "./icons/arrow_right.svg";
 import IconArrowDown from "./icons/arrow_down.svg";
 import IconArrowLeft from "./icons/arrow_left.svg";
+import IconBoards from "./icons/boards.svg";
+
 import IconChat from "./icons/chat.svg";
 import IconError from "./icons/error.svg";
 import IconFriends from "./icons/friends.svg";
@@ -27,6 +29,7 @@ export const ICON_LIBRARY = {
     arrow_right: IconArrowRight,
     arrow_down: IconArrowDown,
     arrow_left: IconArrowLeft,
+    boards: IconBoards,
     comments: IconChat,
     error: IconError,
     friends: IconFriends,
